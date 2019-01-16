@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     scroll-behavior: smooth;
+    overflow:visible;
 }
 
 :root {
@@ -11,7 +12,7 @@
   }
 
 body{
-    background:#f8f8f9;
+    background:#fff;
 }
 a{
     color:var(--primary-color);
@@ -213,9 +214,16 @@ footer a{
 }
 .card:hover{ 
     box-shadow: 0 9px 28px rgba(0,0,0,0.12), 0 0px 10px rgba(0,0,0,0.1);
+    transform: scale(1.04);
+}
+#blog{
+    background: #f7f7f7;
 }
 #blog .card{
     padding-bottom:16px;
+}
+#project .card h5{
+    margin:0;
 }
 .card-footer{
     background:none;
@@ -300,4 +308,52 @@ ul.timeline > li:before {
     width: 15px;
     height: 15px;
     z-index: 400;
+}
+
+/* client */
+.client-content{
+    margin-right:200px;
+}
+.client-content p{
+color:#888;
+font-size:14px;
+/* position: absolute;
+left: auto;
+right:300px; */
+}
+/* Slider */
+.talk-aboutme{
+    height: fit-content;
+    margin:40px;
+    margin-top:-45px;
+}
+.talk-aboutme .crd{
+ /* background:#F97300; */
+ padding:32px;
+ overflow: visible;
+}
+.talk-aboutme .crd .row{
+    background:#F97300;
+    height: 297px;
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    box-shadow: 0 5px 40px rgba(0,0,0,.07);
+    border-radius: 4px;
+    text-align: left;
+    overflow: hidden;
+    padding-bottom: 35px;
+}
+.talk-aboutme .crd .client-img{
+background-size:cover;
+background-position: center;
+position: absolute;
+top:-20px;
+bottom:-20px;
+right: -6px;
+width:230px;
+border-radius: 50% 0 0 50%;
 }
