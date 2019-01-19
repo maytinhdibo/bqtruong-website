@@ -15,7 +15,9 @@
 /* logo */
 #client-logo{
     padding:0;
-    background:#f8f8f8;
+    background:#fff;
+    border-top:1px solid #eee;
+    margin-left:16px;
 }
 #client-logo img{
    height: 100px;

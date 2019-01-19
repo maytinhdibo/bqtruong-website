@@ -35,14 +35,6 @@ $('.talk-aboutme').slick({
     ]
   });
 
-  $('.client-logo').slick({
-    infinite: true,
-    slidesToShow: 9,
-    variableWidth: true,
-    slidesToScroll: 1,
-    autoplaySpeed: 300
-  });
-
   $('#friend').slick({
     infinite: true,
     slidesToShow: 3,

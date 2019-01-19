@@ -205,7 +205,7 @@ header {
 footer{
     background-color: #252525;
     color: #ffffff;
-    font-size:13px;
+    font-size:14px;
 }
 footer *{
     padding:6px;
@@ -335,6 +335,12 @@ ul.timeline > li:before {
 }
 
 /* client */
+.client-logo div{
+    height:100px;
+    background-repeat: no-repeat;
+    background-size:100px;
+ background-position:center;
+}
 .client-content{
     right: 230px;
     left: 32px;

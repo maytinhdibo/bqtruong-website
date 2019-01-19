@@ -514,11 +514,11 @@
 
 
     <div id="client-logo" class="page">
-        <div class="client-logo">
-            <img src="http://plandvietnam.com/wp-content/uploads/2018/04/logo-flc.jpg" />
-            <img src="http://plandvietnam.com/wp-content/uploads/2018/04/logo-vinhomes.png" />
-            <img src="http://plandvietnam.com/wp-content/uploads/2018/04/logo-sungroup.jpg" />
-            <img src="http://plandvietnam.com/wp-content/uploads/2018/06/4-1.jpg" />
+        <div class="client-logo row">
+            <div  class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-flc.jpg)" ></div>
+            <div class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-vinhomes.png)"></div>
+            <div class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-sungroup.jpg)" ></div>
+            <div class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/06/4-1.jpg)" ></div>
         </div>
     </div>
 
@@ -626,7 +626,7 @@
         function playvideo() {
             if (play == 0) {
                 document.querySelector("#video-background").style.visibility = "visible";
-                document.querySelector("#video").src = "http://www.youtube.com/embed/LnHtWIKnQi0?controls=0&showinfo=0&autoplay=1&loop=1&mute=1";
+                document.querySelector("#video").src = "https://www.youtube.com/embed/MB80ZuIJATI?controls=0&showinfo=0&autoplay=1&loop=1&mute=1";
                 document.querySelector(".play-video").innerHTML = '<span class="fas fa-pause"></span>';
                 play = 1;
             } else {
