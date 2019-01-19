@@ -13,14 +13,19 @@
 
 body{
     background:#fff;
+    overflow-x: hidden;
 }
 a{
+    color:var(--text-color);
+}
+a:hover{
     color:var(--primary-color);
 }
 .navbar{
     padding:21px 32px ;
     color:#fff !important;
     transition: 0.5s;
+    text-shadow: 1px 1px 1px #345;
 }
 .navbar.active{
     padding: .5rem 1rem;
@@ -64,6 +69,12 @@ a{
     border:1px solid #eee;
     content:"hello";
 }
+.navbar-toggler-icon{
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    color:#fbfbfb;
+}
 .navbar-toggler::after {
     background: #666 !important;
 }
@@ -83,6 +94,7 @@ header {
     /* background-attachment: fixed; */
     background-size: cover;
     height: 100%;
+    text-shadow: 1px 1px 1px #333;
     /* background-position:left; */
 }
 
@@ -186,6 +198,7 @@ header {
     padding:30px;
     padding-bottom:80px;
     position: relative;
+    background:#fff;
 }
 
 footer{
@@ -222,6 +235,9 @@ footer a{
 #blog .card{
     padding-bottom:16px;
 }
+#project{
+    background:#f7f8f9;
+}
 #project .card h5{
     margin:0;
 }
@@ -240,7 +256,7 @@ button.custom{
     padding: 0;
     padding: 12px 22px;
     margin: auto;
-    display: table;
+    display: block;
     box-sizing: border-box;
     line-height: 1;
     -webkit-transition: .25s;
@@ -250,8 +266,8 @@ button.custom{
     background:none;
     border-radius:4px;
     border:2px solid var(--primary-color);
+    box-sizing: border-box;
 }
-
 button.custom:hover{
     color: #fff;
     background: var(--primary-color);
@@ -260,6 +276,13 @@ button.custom:hover{
 
 button.custom:hover a{
     color: #fff;
+}
+
+input.custom{
+    padding:6px;
+    border-radius:4px;
+    border:solid 2px #fbfbfb;
+    width:100%;
 }
 
 
@@ -312,7 +335,12 @@ ul.timeline > li:before {
 
 /* client */
 .client-content{
-    margin-right:200px;
+    right: 230px;
+    left: 32px;
+    top: 32px;
+    bottom: 50px;
+    position: absolute;
+    overflow: hidden;
 }
 .client-content p{
 color:#888;
@@ -320,6 +348,12 @@ font-size:14px;
 /* position: absolute;
 left: auto;
 right:300px; */
+}
+#talk-aboutme{
+    background:#f7f8f9;
+}
+#with-me{
+    background:#fff;
 }
 /* Slider */
 .talk-aboutme{
@@ -331,6 +365,13 @@ right:300px; */
  /* background:#F97300; */
  padding:32px;
  overflow: visible;
+ position: relative;
+}
+.talk-aboutme .crd .rw_rating{
+    bottom: 28px;
+    left: 30px;
+    position: absolute;
+    letter-spacing: 3px;
 }
 .talk-aboutme .crd .row{
     background:#F97300;
@@ -356,4 +397,78 @@ bottom:-20px;
 right: -6px;
 width:230px;
 border-radius: 50% 0 0 50%;
+}
+/* list */
+#cate-project{
+    /* padding:0 90px; */
+}
+#cate-project h4{
+    padding:12px 0;
+    color:#ff225e;
+    text-decoration: overline;
+}
+.cate-item{
+    position: relative;
+    border-radius:9px;
+    height: 175px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cate-item:hover .card-overlay{
+    background:rgba(0, 0, 0, 0.5);
+}
+.cate-item .bg-overlay, .card-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-size:cover;
+    background-position: center;
+    transition: 0.25s ease-in;   
+}
+.cate-item:hover .bg-overlay{
+    transform: rotate(-5deg) scale(1.5);
+
+}
+
+.card-overlay{
+    background:rgba(0, 0, 0, 0.7);
+}
+.list-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    font-size:24px;
+    text-shadow: 0 0 1px #444;
+}
+/* post */
+.post-item h4{
+    border-radius:2px;
+    border-left:3px solid #ff4463;
+    padding-left:4px;
+    margin-bottom:12px;
+}
+.post-item ul{
+    list-style:none;
+}
+.post-item li{
+    display: block;
+    padding: 8px 0 8px 12px;
+    border-top: #eee 1px solid;
+    color: #3d3d3d;
+    background: url(../img/red-bullet.jpg) 0px 18px no-repeat;
+}
+.post-title{
+    padding:9px 0;
+    display: block;
+}
+.post-item a{
+    color:#3d3d3d;
+    transition: 0.25s ease-in;
+}
+.thumb-post img{
+    border-radius: 4px;
 }

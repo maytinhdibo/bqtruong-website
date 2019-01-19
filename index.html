@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Chuyên gia tư vấn BĐS - Bùi Quốc Trưởng</title>
 </head>
 
 <body>
@@ -21,7 +24,9 @@
         <a class="navbar-brand mr-4" href="#">Bui Quoc Truong</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i>
+
+            </span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mr-4">
@@ -40,21 +45,32 @@
         </div>
     </nav>
 
+
+
     <header class="header">
         <div class="overlay"></div>
+       
+        <div id="video-background" class="video-background">
+            <div class="video-foreground">
+                <iframe id="video" 
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
         <div class="description col-sm-6 col-xs-12 wow fadeInUp">
             <h1> Căn họ cao cấp, tôi là Bùi Quốc Trưởng</h1>
             <p> Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                 culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <div style="position: relative;" class="video-container">
-                <span class="play-video"><span class="fa fa-play"></span></span>
+                <span onclick="playvideo()" class="play-video"><span class="fa fa-play"></span></span>
             </div>
         </div>
 
     </header>
 
-    <div id="about" class="container page">
+    <div id="about" class="page">
+        <div class="container">
         <div class="title-page">
             <h2>Tôi là ai?</h2>
         </div>
@@ -94,104 +110,138 @@
             </div>
         </div>
     </div>
+    </div>
 
 
     <div style="padding:46px;background-size:cover;background-position: bottom;background-image: linear-gradient(
         rgba(0, 0, 0, 0.75), 
         rgba(0, 0, 0, 0.75)
       ),url('https://scontent.fhan5-5.fna.fbcdn.net/v/t1.0-9/40978439_1941482415942797_8209395099390443520_o.jpg?_nc_cat=101&_nc_ht=scontent.fhan5-5.fna&oh=25885d6212b82800daf0fd662d88d032&oe=5CD7CCC1')"
-        class="page">
+        id="contact" class="page">
 
-        <form class="form-inline">
-            <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-5 .col-sm-12">
                 <h3 style="color:#fff"> Nhận tư vấn ngay</h3>
             </div>
-            <div class="form-group mx-sm-4 mb-12">
+            <div class="col-md-2 .col-sm-4">
                 <label for="inputPassword2" class="sr-only">Số điện thoại</label>
-                <input type="text" class="form-control" id="inputPassword2" placeholder="Số điện thoại">
+                <input type="text" class="custom" id="inputPassword2" placeholder="Số điện thoại">
             </div>
 
-            <div class="form-group mx-sm-4 mb-12">
+            <div class="col-md-3 .col-sm-5">
                 <label for="inputPassword2" class="sr-only">Email</label>
-                <input type="text" class="form-control" id="inputPassword2" placeholder="Email">
+                <input type="text" class="custom" id="inputPassword2" placeholder="Email">
             </div>
-            <button id="submit-sub" type="submit" class="mb-2 custom">Gửi ngay</button>
-        </form>
+            <div class="col-md-2 .col-sm-5">
+                <button id="submit-sub" style="width:100%;" type="submit" class="custom">Gửi ngay</button>
+            </div>
+
+        </div>
     </div>
 
     <div id="project" class="page">
-            <div class="title-page">
-                <h2>Danh mục đầu tư</h2>
-            </div>
-    <div class="container">
-            <div class="row hidden-md-up">
-                <div class="col-md-4">
-                    <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-                        <div class="card-footer">
-                            <h5> Căn hộ cao cấp</h5>
-                        </div>
+        <div class="title-page">
+            <h2>Dự án đầu tư</h2>
+        </div>
+        <div id="list-project" class="container">
+            <div class="list-card">
+                <div class="card wow jackInTheBox" data-wow-duration="0.75s">
+                    <div class="card-img">
+                        <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-                        <div class="card-footer">
-                            <h5> Đất vùng ven</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-                        <div class="card-footer">
-                            <h5> Căn hộ cao cấp</h5>
-                        </div>
-                    </div>
-                </div>
-            </div><br>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-                        <div class="card-footer">
-                            <h5> Căn hộ cao cấp</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-                        <div class="card-footer">
-                            <h5> Căn hộ cao cấp</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-                        <div class="card-footer">
-                            <h5> Căn hộ cao cấp</h5>
-                        </div>
+                    <div class="card-footer">
+                        <h5> Căn hộ cao cấp</h5>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
 
-    <div id="blog" class="blog page">
+            <div class="list-card">
+                <div class="card wow jackInTheBox" data-wow-duration="0.75s">
+                    <div class="card-img">
+                        <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <h5> Căn hộ gần cao cấp</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-card">
+                <div class="card wow jackInTheBox" data-wow-duration="0.75s">
+                    <div class="card-img">
+                        <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <h5> Căn hộ siêu cao cấp</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-card">
+                <div class="card wow jackInTheBox" data-wow-duration="0.75s">
+                    <div class="card-img">
+                        <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <h5> Căn hộ cao cấp</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-card">
+                <div class="card wow jackInTheBox" data-wow-duration="0.75s">
+                    <div class="card-img">
+                        <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <h5> Căn hộ cực cao cấp</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="cate-project" class="row">
+                <div class="col-md-12">
+                    <h4>Các danh mục</h4>
+                </div>
+                <div class="col-md-3">
+                    <div class="cate-item">
+                        <div style="background-image:url('img/profile.jpg')" class="bg-overlay"></div>
+                        <div class="card-overlay"></div>
+                        <div class="list-text">Xin chào</div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="cate-item">
+                        <div style="background-image:url('img/profile.jpg')" class="bg-overlay"></div>
+                        <div class="card-overlay"></div>
+                        <div class="list-text">Xin chào</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="cate-item">
+                        <div style="background-image:url('img/profile.jpg')" class="bg-overlay"></div>
+                        <div class="card-overlay"></div>
+                        <div class="list-text">Xin chào</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="cate-item">
+                        <div style="background-image:url('img/profile.jpg')" class="bg-overlay"></div>
+                        <div class="card-overlay"></div>
+                        <div class="list-text">Xin chào</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="blog" class="blog page">
         <div class="title-page">
             <h2>Bài viết</h2>
         </div>
@@ -242,7 +292,268 @@
                         <div class="card-body">
                             <h4 class="card-title">Post Title</h4>
                             <p class="card-text">
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="custom"><a href="" class="card-link">Read more</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
+
+
+    <div id="post" class="page">
+        <div class="title-page">
+            <h2>Bài viết cập nhật</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-sm-12 post-item">
+                    <h4>Phân tích bài báo</h4>
+                    <a href="#">
+                        <div class="thumb-post">
+                            <div class="card-img">
+                                <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                            </div>
+                            <b class="post-title">Đây là bài viết 1 nè, quan trọng lắm á</b>
+                        </div>
+                    </a>
+                    <ul>
+                        <li><a href="#">Bài này viết sau đó nha</a></li>
+                        <li><a href="#">Đây là một bài viết gì đó mình hông biết</a></li>
+                        <li><a href="#">Bài này viết sau đó nha</a></li>
+                        <li><a href="#">Bài này viết về một nội dung cực kì dài đó nha, không thể nói hết được</a></li>
+                        <li><a href="#">Còn bài này ngắn quá ngắn</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-sm-12 post-item">
+                    <h4>Phân tích bài báo</h4>
+                    <a href="#">
+                        <div class="thumb-post">
+                            <div class="card-img">
+                                <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                            </div>
+                            <b class="post-title">Đây là bài viết 1 nè, quan trọng lắm á</b>
+                        </div>
+                    </a>
+                    <ul>
+                        <li><a href="#">Bài này viết sau đó nha</a></li>
+                        <li><a href="#">Đây là một bài viết gì đó mình hông biết</a></li>
+                        <li><a href="#">Bài này viết sau đó nha</a></li>
+                        <li><a href="#">Bài này viết về một nội dung cực kì dài đó nha, không thể nói hết được</a></li>
+                        <li><a href="#">Còn bài này ngắn quá ngắn</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-sm-12 post-item">
+                    <h4>Phân tích bài báo</h4>
+                    <a href="#">
+                        <div class="thumb-post">
+                            <div class="card-img">
+                                <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                            </div>
+                            <b class="post-title">Đây là bài viết 1 nè, quan trọng lắm á</b>
+                        </div>
+                    </a>
+                    <ul>
+                        <li><a href="#">Bài này viết sau đó nha</a></li>
+                        <li><a href="#">Đây là một bài viết gì đó mình hông biết</a></li>
+                        <li><a href="#">Bài này viết sau đó nha</a></li>
+                        <li><a href="#">Bài này viết về một nội dung cực kì dài đó nha, không thể nói hết được</a></li>
+                        <li><a href="#">Còn bài này ngắn quá ngắn</a></li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="talk-aboutme" class="page">
+        <div class="title-page">
+            <h2>Nói về tôi</h2>
+        </div>
+        <div class="talk-aboutme">
+            <div class="crd">
+                <div class="row">
+                    <div style="background-image:url('https://www.leadengine-wp.com/wp-content/uploads/2018/01/review1.jpg')"
+                        class="client-img"></div>
+                    <div class="client-content">
+                        <div class="rw-author-details">
+                            <h5>Claire Silva</h5>
+                            <p>Kansas City, Missouri</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
+                            style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
+                            class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
+                </div>
+            </div>
+
+            <div class="crd">
+                <div class="row">
+                    <div style="background-image:url('https://www.leadengine-wp.com/wp-content/uploads/2018/01/review3.jpg')"
+                        class="client-img"></div>
+                    <div class="client-content">
+                        <div class="rw-author-details">
+                            <h5>Claire Silva</h5>
+                            <p>Kansas City, Missouri</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
+                            style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
+                            class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
+                </div>
+            </div>
+
+            <div class="crd">
+                <div class="row">
+                    <div style="background-image:url('https://www.leadengine-wp.com/wp-content/uploads/2018/01/review1.jpg')"
+                        class="client-img"></div>
+                    <div class="client-content">
+                        <div class="rw-author-details">
+                            <h5>Claire Silva</h5>
+                            <p>Kansas City, Missouri</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
+                            style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
+                            class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
+                </div>
+            </div>
+
+            <div class="crd">
+                <div class="row">
+                    <div style="background-image:url('https://www.leadengine-wp.com/wp-content/uploads/2018/01/review1.jpg')"
+                        class="client-img"></div>
+                    <div class="client-content">
+                        <div class="rw-author-details">
+                            <h5>Claire Silva</h5>
+                            <p>Kansas City, Missouri</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
+                            style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
+                            class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
+                </div>
+            </div>
+
+            <div class="crd">
+                <div class="row">
+                    <div style="background-image:url('https://www.leadengine-wp.com/wp-content/uploads/2018/01/review1.jpg')"
+                        class="client-img"></div>
+                    <div class="client-content">
+                        <div class="rw-author-details">
+                            <h5>Claire Silva</h5>
+                            <p>Kansas City, Missouri</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
+                            style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
+                            class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="with-me" class="blog page">
+        <div class="title-page">
+            <h2>Đồng hành cùng tôi</h2>
+        </div>
+        <div class="container">
+            <div id="friend" class="row">
+                <div class="list-card">
+                    <div class="card wow fadeInUp">
+                        <div class="card-img">
+                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title">Post Title</h4>
+                            <p class="card-text">
+
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="custom"><a href="" class="card-link">Read more</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-card">
+                    <div class="card wow fadeInUp">
+                        <div class="card-img">
+                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title">Post Title</h4>
+                            <p class="card-text">
+
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="custom"><a href="" class="card-link">Read more</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-card">
+                    <div class="card wow fadeInUp">
+                        <div class="card-img">
+                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title">Post Title</h4>
+                            <p class="card-text">
+
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="custom"><a href="" class="card-link">Read more</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-card">
+                    <div class="card wow fadeInUp" data-wow-duration="0.75s" data-wow-delay="1s">
+                        <div class="card-img">
+                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title">Post Title</h4>
+                            <p class="card-text">
                                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
                         </div>
@@ -256,112 +567,23 @@
     </div>
 
 
-    <div id="talk-aboutme" class="page">
-        <div class="title-page">
-            <h2>Nói về tôi</h2>
-        </div>
-        <div class="talk-aboutme">
-            <div class="crd">
-                <div class="row">
-                    <div class="client-content">
-                        <div class="rw-author-details">
-                            <h5>Claire Silva</h5>
-                            <p>Kansas City, Missouri</p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
-                                style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
-                                class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
-                    </div>
-                    <div style="background-image:url('https://www.leadengine-wp.com/wp-content/uploads/2018/01/review3.jpg')"
-                        class="client-img">Flex item 2</div>
-                </div>
-            </div>
 
-            <div class="crd">
-                <div class="row">
-                    <div class="client-content">
-                        <div class="rw-author-details">
-                           <div class="rw-author-details"><h5>Raymond Turner</h5><p>Arlington, Washington</p></div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
-                                style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
-                                class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
-                    </div>
-                    <div style="background-image:url('https://www.leadengine-wp.com/wp-content/uploads/2018/01/review2.jpg')"
-                        class="client-img">Flex item 2</div>
-                </div>
-            </div>
-
-            <div class="crd">
-                <div class="row">
-                    <div class="client-content">
-                        <div class="rw-author-details">
-                            <h5>Claire Silva</h5>
-                            <p>Kansas City, Missouri</p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
-                                style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
-                                class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
-                    </div>
-                    <div style="background-image:url('https://www.leadengine-wp.com/wp-content/uploads/2018/01/review2.jpg')"
-                        class="client-img">Flex item 2</div>
-                </div>
-            </div>
-
-            <div class="crd">
-                <div class="row">
-                    <div class="client-content">
-                        <div class="rw-author-details">
-                            <h5>Claire Silva</h5>
-                            <p>Kansas City, Missouri</p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
-                                style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
-                                class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
-                    </div>
-                    <div style="background-image:url('https://www.leadengine-wp.com/wp-content/uploads/2018/01/review2.jpg')"
-                        class="client-img">Flex item 2</div>
-                </div>
-            </div>
-
-            <div class="crd">
-                <div class="row">
-                    <div class="client-content">
-                        <div class="rw-author-details">
-                            <h5>Claire Silva</h5>
-                            <p>Kansas City, Missouri</p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
-                                style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
-                                class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
-                    </div>
-                    <div style="background-image:url('https://www.leadengine-wp.com/wp-content/uploads/2018/01/review2.jpg')"
-                        class="client-img">Flex item 2</div>
-                </div>
-            </div>
-
-
+    <div id="client-logo" class="page">
+        <div class="client-logo">
+            <img src="http://www.barnyardschool.co.za/images/googlemaps.png" />
+            <img src="https://cdn1.iconfinder.com/data/icons/appicns/513/appicns_Chrome.png" />
+            <img src="http://bietthubienphuquoc.com.vn/wp-content/uploads/2015/10/du-an-can-ho-vihomes-central-park-logo.jpg" />
+            <img src="http://www.barnyardschool.co.za/images/googlemaps.png" />
+            <img src="https://cdn1.iconfinder.com/data/icons/appicns/513/appicns_Chrome.png" />
+            <img src="https://cdn1.iconfinder.com/data/icons/appicns/513/appicns_Chrome.png" />
+            <img src="http://www.barnyardschool.co.za/images/googlemaps.png" />
+            <img src="https://cdn1.iconfinder.com/data/icons/appicns/513/appicns_Chrome.png" />
+            <img src="http://www.barnyardschool.co.za/images/googlemaps.png" />
+            <img src="https://cdn1.iconfinder.com/data/icons/appicns/513/appicns_Chrome.png" />
 
 
         </div>
     </div>
-
-
 
     <footer class="page-footer font-small blue pt-4">
 
@@ -462,6 +684,13 @@
                 $(".navbar").removeClass("active");
             }
         });
+        function playvideo(){
+            document.querySelector("#video-background").style.visibility="visible";      
+            document.querySelector("#video").src="http://www.youtube.com/embed/LnHtWIKnQi0?controls=0&showinfo=0&autoplay=1&loop=1&mute=1";
+            document.querySelector(".play-video").innerHTML='<span class="fas fa-pause"></span>';
+
+
+        }
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
