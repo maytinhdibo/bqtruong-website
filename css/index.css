@@ -24,13 +24,14 @@ a:hover{
 .navbar{
     padding:21px 32px ;
     color:#fff !important;
-    transition: 0.5s;
-    text-shadow: 1px 1px 1px #345;
+    transition: 0.25s;
+    text-shadow: 1px 1px 1px rgba(51, 68, 85, 0.7);
 }
 .navbar.active{
     padding: .5rem 1rem;
     background: #fff;
     box-shadow: 0 0 46px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
 }
 
 .nav-link, .navbar-brand {
