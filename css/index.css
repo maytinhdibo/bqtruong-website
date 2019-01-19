@@ -5,7 +5,9 @@
     scroll-behavior: smooth;
     overflow:visible;
 }
-
+/* .wow{
+    overflow: hidden;
+} */
 :root {
     --primary-color: #D50000; 
     --text-color: #f00028;
@@ -13,7 +15,6 @@
 
 body{
     background:#fff;
-    overflow-x: hidden;
 }
 a{
     color:var(--text-color);
@@ -200,6 +201,7 @@ header {
     padding-bottom:80px;
     position: relative;
     background:#fff;
+    overflow-x: hidden;
 }
 
 footer{
