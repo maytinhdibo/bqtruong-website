@@ -23,26 +23,31 @@
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top ">
-        <a class="navbar-brand mr-4" href="#">Bùi Quốc Trưởng</a>
+        <!-- <a class="navbar-brand mr-4" href="#">Bùi Quốc Trưởng</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i>
-
-            </span>
+            <!-- <span class="navbar-toggler-icon"><i class="fas fa-bars"></i>
+            </span> -->
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-4">
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" data-value="about" href="#about">Về tôi</a> </li>
                 <li class="nav-item">
                     <a class="nav-link " data-value="portfolio" href="http://blog.buiquoctruong.com">Blog</a>
                 </li>
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <img class="logo" src="img/profile.jpg" />
+                    </li>
+                    </li>
+                </ul>
                 <li class="nav-item">
                     <a class="nav-link " data-value="project" href="#project">Dự án</a> </li>
                 <li class="nav-item">
                     <a class="nav-link " data-value="talk" href="#talk-aboutme">Đánh giá</a> </li>
-                <li class="nav-item">
-                    <a class="nav-link " data-value="team" href="#contact"> Liên hệ</a> </li>
+              <!-- <li class="nav-item">
+                    <a class="nav-link " data-value="team" href="#contact"> Liên hệ</a> </li> -->
 
             </ul>
         </div>
@@ -60,8 +65,8 @@
         </div>
 
         <div class="description col-sm-6 col-xs-12 wow fadeInUp">
-            <h1>Tôi là Bùi Quốc Trưởng</h1>
-            <h1>Chuyên gia tư vấn BĐS Cao Cấp</h1>
+            <h1>Tôi là Bùi Quốc Trưởng<br>
+            Chuyên gia tư vấn BĐS Cao Cấp</h1>
             <p>Có thể tôi không
                 phải là người giỏi nhất để có thể giải quyết mọi vấn đề của quý khách nhưng tôi tự tin mình là người tư
                 vấn tận tâm và chuyên nghiệp nhất…</p>
@@ -81,7 +86,7 @@
                 <div style="text-align: center" class="col-lg-3 col-md-4 col-sm-12 wow fadeInLeft">
                     <img src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-9/46773957_2046770548747316_7421143681450639360_n.jpg?_nc_cat=108&_nc_oc=AQltd91WYebEICchBVdUmyv4mECOzboIgNo7RPpLL4LhPRt2lW3iuP0D9ZLE55_xqRo&_nc_ht=scontent.fhan2-3.fna&oh=6ae9b130b6e4bb852a4d91642ee2ec36&oe=5CD1EC7D"
                         class="img-fluid">
-                    <span class="text-justify">Chuyên gia tư vấn BĐS</span>
+                    <!-- <span class="text-justify">Chuyên gia tư vấn BĐS</span> -->
                 </div>
                 <div class="col-lg-9 col-md-8 col-sm-12 desc wow fadeInRight">
                     <h3>Bùi Quốc Trưởng</h3>
@@ -541,10 +546,11 @@
 
     <div id="client-logo" class="page">
         <div class="client-logo row">
-            <div class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-flc.jpg)"></div>
+            <div class="col-lg-2 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-flc.jpg)"></div>
             <div class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-vinhomes.png)"></div>
-            <div class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-sungroup.jpg)"></div>
-            <div class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/06/4-1.jpg)"></div>
+            <div class="col-lg-2 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-sungroup.jpg)"></div>
+            <div class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-vinhomes.png)"></div>
+            <div class="col-lg-2 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/06/4-1.jpg)"></div>
         </div>
     </div>
 
@@ -650,21 +656,27 @@
         });
         var play = 0;
         function playvideo() {
-            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-            window.open("https://www.youtube.com/watch?v=mUyggKgfkXg");
-        }else{
-            if (play == 0) {
-                document.querySelector("#video-background").style.visibility = "visible";
-                document.querySelector("#video").src = "https://www.youtube.com/embed/MB80ZuIJATI?controls=0&showinfo=0&autoplay=1&loop=1&mute=1";
-                document.querySelector(".play-video").innerHTML = '<span class="fas fa-pause"></span>';
-                play = 1;
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                window.open("https://www.youtube.com/watch?v=mUyggKgfkXg");
             } else {
-                document.querySelector("#video-background").style.visibility = "hidden";
-                document.querySelector("#video").src = "";
-                document.querySelector(".play-video").innerHTML = '<span class="fas fa-play"></span>';
-                play = 0;
+                if (play == 0) {
+                    document.querySelector("#video-background").style.visibility = "visible";
+                    document.querySelector("#video").src = "https://www.youtube.com/embed/MB80ZuIJATI?controls=0&showinfo=0&autoplay=1&loop=1&mute=1";
+                    document.querySelector(".play-video").innerHTML = '<span class="fas fa-pause"></span>';
+                    document.querySelector(".description h1").style.display="none";
+                    document.querySelector(".description p").style.display="none";
+                    document.querySelector(".navbar").style.opacity="0";
+                    play = 1;
+                } else {
+                    document.querySelector("#video-background").style.visibility = "hidden";
+                    document.querySelector("#video").src = "";
+                    document.querySelector(".play-video").innerHTML = '<span class="fas fa-play"></span>';
+                    document.querySelector(".description h1").style.display="block";
+                    document.querySelector(".description p").style.display="block";
+                    document.querySelector(".navbar").style.opacity="1";
+                    play = 0;
+                }
             }
-        }
 
 
         }
