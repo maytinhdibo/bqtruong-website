@@ -6,12 +6,23 @@
   query_posts('posts_per_page=1');
 ?>
 
+<?php
+    global $projects;
+    $projects = get_pages(array("parent" => 37));
+
+    session_start();
+?>
+
 <html>
 
 <head>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
+
+    <meta name="description" content="Bùi Quốc Trưởng chuyên ta tư vấn đầu tư bất động sản">
+    <meta name="keywords" content="bất động sản, flc, vinhome, plandvietnam">
+    <meta name="author" content="iammaytinhdibo@gmail.com">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
@@ -30,12 +41,31 @@
 </head>
 
 <body>
+
+
+        <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1053231291479293">
+</div>
+
+
     <nav class="navbar navbar-expand-lg fixed-top ">
-        <!-- <a class="navbar-brand mr-4" href="#">Bùi Quốc Trưởng</a> -->
+        <a class="navbar-brand mr-4" href="#">Bùi Quốc Trưởng</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <!-- <span class="navbar-toggler-icon"><i class="fas fa-bars"></i>
-            </span> -->
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i>
+            </span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav">
@@ -46,14 +76,14 @@
                 </li>
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item">
-                        <img class="logo" src="img/profile.jpg" />
+                      <a href="#"><img class="logo" src="img/profile.jpg" /></a>  
                     </li>
                     </li>
                 </ul>
                 <li class="nav-item">
                     <a class="nav-link " data-value="project" href="#project">Dự án</a> </li>
                 <li class="nav-item">
-                    <a class="nav-link " data-value="talk" href="#talk-aboutme">Đánh giá</a> </li>
+                    <a class="nav-link " data-value="talk" href="#contact">Đánh giá</a> </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link " data-value="team" href="#contact"> Liên hệ</a> </li> -->
 
@@ -142,65 +172,27 @@
             <h2>Dự án của tôi</h2>
         </div>
         <div id="list-project" class="container">
-            <div class="list-card">
-                <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                    <div class="card-img">
-                        <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/49180764_2100057073418663_64231497904685056_o.jpg?_nc_cat=104&_nc_oc=AQkzwzVYEmqc9siDenslOGyzKdJhONuthYyO4ySq9kFvs0SKi5yOknaGp0tNwiIlTQw&_nc_ht=scontent.fhan2-4.fna&oh=b682cb0cc61e21ef1f28806a3190f242&oe=5CCD3EF8"
-                            class="img-fluid">
-                    </div>
-                    <div class="card-footer">
-                        <h5> FLC HẠ LONG</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="list-card">
-                <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                    <div class="card-img">
-                        <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/49180764_2100057073418663_64231497904685056_o.jpg?_nc_cat=104&_nc_oc=AQkzwzVYEmqc9siDenslOGyzKdJhONuthYyO4ySq9kFvs0SKi5yOknaGp0tNwiIlTQw&_nc_ht=scontent.fhan2-4.fna&oh=b682cb0cc61e21ef1f28806a3190f242&oe=5CCD3EF8"
-                            class="img-fluid">
-                    </div>
-                    <div class="card-footer">
-                        <h5> FLC HẠ LONG</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="list-card">
-                <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                    <div class="card-img">
-                        <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/49180764_2100057073418663_64231497904685056_o.jpg?_nc_cat=104&_nc_oc=AQkzwzVYEmqc9siDenslOGyzKdJhONuthYyO4ySq9kFvs0SKi5yOknaGp0tNwiIlTQw&_nc_ht=scontent.fhan2-4.fna&oh=b682cb0cc61e21ef1f28806a3190f242&oe=5CCD3EF8"
-                            class="img-fluid">
-                    </div>
-                    <div class="card-footer">
-                        <h5> FLC HẠ LONG</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="list-card">
-                <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                    <div class="card-img">
-                        <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/49180764_2100057073418663_64231497904685056_o.jpg?_nc_cat=104&_nc_oc=AQkzwzVYEmqc9siDenslOGyzKdJhONuthYyO4ySq9kFvs0SKi5yOknaGp0tNwiIlTQw&_nc_ht=scontent.fhan2-4.fna&oh=b682cb0cc61e21ef1f28806a3190f242&oe=5CCD3EF8"
-                            class="img-fluid">
-                    </div>
-                    <div class="card-footer">
-                        <h5> FLC HẠ LONG</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="list-card">
-                <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                    <div class="card-img">
-                        <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/49180764_2100057073418663_64231497904685056_o.jpg?_nc_cat=104&_nc_oc=AQkzwzVYEmqc9siDenslOGyzKdJhONuthYyO4ySq9kFvs0SKi5yOknaGp0tNwiIlTQw&_nc_ht=scontent.fhan2-4.fna&oh=b682cb0cc61e21ef1f28806a3190f242&oe=5CCD3EF8"
-                            class="img-fluid">
-                    </div>
-                    <div class="card-footer">
-                        <h5> FLC HẠ LONG</h5>
-                    </div>
-                </div>
-            </div>
+            <?php
+            if ( $projects ) {
+                foreach ( $projects as $project ) :
+                    $_SESSION["project"] = $project; ?>
+                    <a href="<?php echo get_page_link( $_SESSION["project"]->ID ); ?>">
+                        <div class="list-card">
+                            <div class="card wow jackInTheBox" data-wow-duration="0.75s">
+                                <div class="card-img">
+                                    <img src="<?php echo get_the_post_thumbnail_url($_SESSION["project"]->ID) ?>"
+                                         class="img-fluid">
+                                </div>
+                                <div class="card-footer">
+                                    <h5><?php echo $_SESSION["project"]->post_title; ?></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <?php
+                endforeach;
+            }
+            ?>
         </div>
         <div class="container">
             <div id="cate-project" class="row">
@@ -208,40 +200,48 @@
                     <h4>Các danh mục dự án</h4>
                 </div>
                 <div class="col-md-3">
-                    <div class="cate-item">
-                        <div style="background-image:url('http://trannghia.net/wp-content/uploads/2018/07/avt-vinpearl-cua-hoi.jpg')"
-                            class="bg-overlay"></div>
-                        <div class="card-overlay"></div>
-                        <div class="list-text">Biệt thự</div>
-                    </div>
+                    <a href="http://blog.buiquoctruong.com/tag/biet-thu/">
+                        <div class="cate-item">
+                            <div style="background-image:url('http://trannghia.net/wp-content/uploads/2018/07/avt-vinpearl-cua-hoi.jpg')"
+                                 class="bg-overlay"></div>
+                            <div class="card-overlay"></div>
+                            <div class="list-text">Biệt thự</div>
+                        </div>
+                    </a>
                 </div>
 
 
                 <div class="col-md-3">
-                    <div class="cate-item">
-                        <div style="background-image:url('http://nguyenhoanganh.net/wp-content/uploads/2017/02/vinhomes-green-bay-600x420.jpg')"
-                            class="bg-overlay"></div>
-                        <div class="card-overlay"></div>
-                        <div class="list-text">Liền kề</div>
-                    </div>
+                    <a href="http://blog.buiquoctruong.com/tag/lien-ke/">
+                        <div class="cate-item">
+                            <div style="background-image:url('http://nguyenhoanganh.net/wp-content/uploads/2017/02/vinhomes-green-bay-600x420.jpg')"
+                                class="bg-overlay"></div>
+                            <div class="card-overlay"></div>
+                            <div class="list-text">Liền kề</div>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-3">
-                    <div class="cate-item">
-                        <div style="background-image:url('http://nguyenhoanganh.net/wp-content/uploads/2017/05/vinhomes-skylake.jpg')"
-                            class="bg-overlay"></div>
-                        <div class="card-overlay"></div>
-                        <div class="list-text">Chung cư</div>
-                    </div>
+                    <a href="http://blog.buiquoctruong.com/tag/chung-cu/">
+                        <div class="cate-item">
+                            <div style="background-image:url('http://nguyenhoanganh.net/wp-content/uploads/2017/05/vinhomes-skylake.jpg')"
+                                class="bg-overlay"></div>
+                            <div class="card-overlay"></div>
+                            <div class="list-text">Chung cư</div>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-3">
-                    <div class="cate-item">
-                        <div style="background-image:url('http://trannghia.net/wp-content/uploads/2018/08/the-costa-nha-trang.jpg')"
-                            class="bg-overlay"></div>
-                        <div class="card-overlay"></div>
-                        <div class="list-text">Condotel</div>
-                    </div>
+                    <a href="http://blog.buiquoctruong.com/tag/condotel/">
+                        <div class="cate-item">
+                            <div style="background-image:url('http://trannghia.net/wp-content/uploads/2018/08/the-costa-nha-trang.jpg')"
+                                class="bg-overlay"></div>
+                            <div class="card-overlay"></div>
+                            <div class="list-text">Condotel</div>
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -318,71 +318,96 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-lg-4 col-sm-12 post-item">
-		    <h4>Tin tức</h4>
-				<ul>
-				<?php while (have_posts()): the_post(); ?>
-					<li><a href="<?php the_permalink(); ?>"><?php the_title();?></a></li>
-				<?php endwhile; ?>
-				</ul>
-                    <a href="#">
-                        <div class="thumb-post">
-                            <div class="card-img">
-                                <img src="http://nguyenhoanganh.net/wp-content/uploads/2019/01/Canh-1-31-min-1024x519.jpg"
-                                    class="img-fluid">
-                            </div>
-                            <b class="post-title">Đây là bài viết 1 nè, quan trọng lắm á</b>
-                        </div>
-                    </a>
-                    <ul>
-                        <li><a href="#">Bài này viết sau đó nha</a></li>
-                        <li><a href="#">Đây là một bài viết gì đó mình hông biết</a></li>
-                        <li><a href="#">Bài này viết sau đó nha</a></li>
-                        <li><a href="#">Bài này viết về một nội dung cực kì dài đó nha, không thể nói hết được</a></li>
-                        <li><a href="#">Còn bài này ngắn quá ngắn</a></li>
-
-                    </ul>
+                    <h4>Tin tức</h4>
+					<?php
+						$posts = get_posts(array('category' => 17));
+						if ( $posts ) {
+						    $first = false;
+							foreach ( $posts as $post ) :
+								setup_postdata( $post );
+                                if ( !$first ) {
+                                    ?>
+                                    <a href="<?php the_permalink(); ?>">
+                                        <div class="thumb-post">
+                                            <div class="card-img">
+                                                <img src="<?php echo get_the_post_thumbnail_url($post->ID) ?>" class="img-fluid">
+                                            </div>
+                                            <b class="post-title"><?php the_title();?></b>
+                                        </div>
+                                    </a>
+                                    <?php
+                                    $first = true;
+                                }
+                                else { ?>
+                                    <li><a href="<?php the_permalink(); ?>"><?php the_title();?></a></li>
+                                <?php
+                                }
+							endforeach;
+							wp_reset_postdata();
+						}
+					?>
                 </div>
 
                 <div class="col-md-4 col-lg-4 col-sm-12 post-item">
                     <h4>Phân tích đầu tư</h4>
-                    <a href="#">
-                        <div class="thumb-post">
-                            <div class="card-img">
-                                <img src="http://nguyenhoanganh.net/wp-content/uploads/2018/12/7-ly-do-nen-dau-tu-vincity-sportia.jpg"
-                                    class="img-fluid">
-                            </div>
-                            <b class="post-title">Đây là bài viết 1 nè, quan trọng lắm á</b>
-                        </div>
-                    </a>
-                    <ul>
-                        <li><a href="#">Bài này viết sau đó nha</a></li>
-                        <li><a href="#">Đây là một bài viết gì đó mình hông biết</a></li>
-                        <li><a href="#">Bài này viết sau đó nha</a></li>
-                        <li><a href="#">Bài này viết về một nội dung cực kì dài đó nha, không thể nói hết được</a></li>
-                        <li><a href="#">Còn bài này ngắn quá ngắn</a></li>
-
-                    </ul>
+                    <?php
+                    $posts = get_posts(array('category' => 18));
+                    if ( $posts ) {
+                        $first = false;
+                        foreach ( $posts as $post ) :
+                            setup_postdata( $post );
+                            if ( !$first ) {
+                                ?>
+                                <a href="<?php the_permalink(); ?>">
+                                    <div class="thumb-post">
+                                        <div class="card-img">
+                                            <img src="<?php echo get_the_post_thumbnail_url($post->ID) ?>" class="img-fluid">
+                                        </div>
+                                        <b class="post-title"><?php the_title();?></b>
+                                    </div>
+                                </a>
+                                <?php
+                                $first = true;
+                            }
+                            else { ?>
+                                <li><a href="<?php the_permalink(); ?>"><?php the_title();?></a></li>
+                                <?php
+                            }
+                        endforeach;
+                        wp_reset_postdata();
+                    }
+                    ?>
                 </div>
 
                 <div class="col-md-4 col-lg-4 col-sm-12 post-item">
                     <h4>Trải nghiệm khách hàng</h4>
-                    <a href="#">
-                        <div class="thumb-post">
-                            <div class="card-img">
-                                <img src="http://nguyenhoanganh.net/wp-content/uploads/2018/12/nen-chon-mua-toa-nao-toa-h8.jpg"
-                                    class="img-fluid">
-                            </div>
-                            <b class="post-title">Đây là bài viết 1 nè, quan trọng lắm á</b>
-                        </div>
-                    </a>
-                    <ul>
-                        <li><a href="#">Bài này viết sau đó nha</a></li>
-                        <li><a href="#">Đây là một bài viết gì đó mình hông biết</a></li>
-                        <li><a href="#">Bài này viết sau đó nha</a></li>
-                        <li><a href="#">Bài này viết về một nội dung cực kì dài đó nha, không thể nói hết được</a></li>
-                        <li><a href="#">Còn bài này ngắn quá ngắn</a></li>
-
-                    </ul>
+                    <?php
+                    $posts = get_posts(array('category' => 19));
+                    if ( $posts ) {
+                        $first = false;
+                        foreach ( $posts as $post ) :
+                            setup_postdata( $post );
+                            if ( !$first ) {
+                                ?>
+                                <a href="<?php the_permalink(); ?>">
+                                    <div class="thumb-post">
+                                        <div class="card-img">
+                                            <img src="<?php echo get_the_post_thumbnail_url($post->ID) ?>" class="img-fluid">
+                                        </div>
+                                        <b class="post-title"><?php the_title();?></b>
+                                    </div>
+                                </a>
+                                <?php
+                                $first = true;
+                            }
+                            else { ?>
+                                <li><a href="<?php the_permalink(); ?>"><?php the_title();?></a></li>
+                                <?php
+                            }
+                        endforeach;
+                        wp_reset_postdata();
+                    }
+                    ?>
                 </div>
 
 
@@ -606,18 +631,19 @@
                     <h5 class="text-uppercase">Dự án của tôi</h5>
 
                     <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">FLC Resort Hạ Long</a>
-                        </li>
-                        <li>
-                            <a href="#!">FLC Resort Hạ Long</a>
-                        </li>
-                        <li>
-                            <a href="#!">FLC Resort Hạ Long</a>
-                        </li>
-                        <li>
-                            <a href="#!">FLC Resort Hạ Long</a>
-                        </li>
+                        <?php
+                        $pages = get_pages(array("parent" => 37));
+                        if ( $pages ) {
+                            foreach ( $pages as $page ) :
+                                $res = '<li><a href="';
+                                $res .= get_page_link( $page->ID );
+                                $res .= '">';
+                                $res .= $page->post_title;
+                                $res .= '</a></li>';
+                                echo $res;
+                            endforeach;
+                        }
+                        ?>
                     </ul>
 
                 </div>
@@ -625,21 +651,22 @@
 
                 <!-- Grid column -->
                 <div class="col-md-3 mb-md-0 mb-3">
-                    <h5 class="text-uppercase">Liên Kết</h5>
+                    <h5 class="text-uppercase">Tải Tài Liệu</h5>
 
                     <ul class="list-unstyled">
-                        <li>
-                            <a href="https://www.flc.vn/">FLC Group</a>
-                        </li>
-                        <li>
-                            <a href="http://plandvietnam.com/">P.Land Việt Nam</a>
-                        </li>
-                        <li>
-                            <a href="https://www.flc.vn/">FLC Group</a>
-                        </li>
-                        <li>
-                            <a href="http://plandvietnam.com/">P.Land Việt Nam</a>
-                        </li>
+                        <?php
+                        $pages = get_pages(array("parent" => 64));
+                        if ( $pages ) {
+                            foreach ( $pages as $page ) :
+                                $res = '<li><a href="';
+                                $res .= get_page_link( $page->ID );
+                                $res .= '">';
+                                $res .= $page->post_title;
+                                $res .= '</a></li>';
+                                echo $res;
+                            endforeach;
+                        }
+                        ?>
                     </ul>
 
                 </div>
@@ -662,23 +689,11 @@
     <div id="totop">
         <i class="fas fa-angle-up"></i>
     </div>
-   
-    
-    <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="1053231291479293">
-</div>
+    <div id="callme">
+    <i class="fa fa-phone"></i> <a href="tel:+84961362174">096.136.2174</a>
+    </div>
+   
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -692,11 +707,11 @@
         $(window).on("scroll", function () {
             if ($(window).scrollTop() > 50) {
                 $(".navbar").addClass("active");
-                $('#scroll').fadeIn(); 
+                $('#totop').fadeIn(); 
             } else {
                 //remove the background property so it comes transparent again (defined in your css)
                 $(".navbar").removeClass("active");
-                $('#scroll').fadeOut(); 
+                $('#totop').fadeOut(); 
             }
         });
         $('#totop').click(function(){ 
