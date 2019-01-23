@@ -22,7 +22,7 @@
     padding: 0;
     background: #fff;
     border-top: 1px solid #eee;
-    margin-left: 16px;
+    /* margin-left: 16px; */
 }
 
 #client-logo img {
@@ -191,4 +191,28 @@
 
 #video-background {
     visibility: hidden;
+}
+#totop{
+    position: fixed;
+    bottom:16px;
+    right:16px;
+    background: rgba(0, 0, 0, 0.5);
+    height:45px;
+    width:45px;
+    border-radius:100%;
+    /* display: table-cell; */
+    text-align: center;
+    vertical-align: middle;
+    font-size: 26px;
+    color:#fff;
+    cursor: pointer;
+    transition: 0.25s;
+    text-indent:-9999px;
+    display:none;
+}
+#totop:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
+#totop i{
+    line-height: 45px;
 }
