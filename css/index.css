@@ -27,13 +27,6 @@ a:hover {
     color: var(--primary-color);
 }
 
-.navbar-toggler{
-    background-image: url("../img/profile.jpg");
-    background-size:cover;
-    height:50px;
-    width: 50px;
-    border-radius: 100%;
-}
 
 .navbar {
     padding: .5rem 1rem;

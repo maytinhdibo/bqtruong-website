@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
 
+    <meta name="description" content="Bùi Quốc Trưởng chuyên ta tư vấn đầu tư bất động sản">
+    <meta name="keywords" content="bất động sản, flc, vinhome, plandvietnam">
+    <meta name="author" content="iammaytinhdibo@gmail.com">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -22,12 +26,31 @@
 </head>
 
 <body>
+
+
+        <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1053231291479293">
+</div>
+
+
     <nav class="navbar navbar-expand-lg fixed-top ">
-        <!-- <a class="navbar-brand mr-4" href="#">Bùi Quốc Trưởng</a> -->
+        <a class="navbar-brand mr-4" href="#">Bùi Quốc Trưởng</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <!-- <span class="navbar-toggler-icon"><i class="fas fa-bars"></i>
-            </span> -->
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i>
+            </span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav">
@@ -38,14 +61,14 @@
                 </li>
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item">
-                        <img class="logo" src="img/profile.jpg" />
+                      <a href="#"><img class="logo" src="img/profile.jpg" /></a>  
                     </li>
                     </li>
                 </ul>
                 <li class="nav-item">
                     <a class="nav-link " data-value="project" href="#project">Dự án</a> </li>
                 <li class="nav-item">
-                    <a class="nav-link " data-value="talk" href="#talk-aboutme">Đánh giá</a> </li>
+                    <a class="nav-link " data-value="talk" href="#contact">Đánh giá</a> </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link " data-value="team" href="#contact"> Liên hệ</a> </li> -->
 
@@ -649,23 +672,11 @@
     <div id="totop">
         <i class="fas fa-angle-up"></i>
     </div>
-   
-    
-    <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="1053231291479293">
-</div>
+    <div id="callme">
+    <i class="fa fa-phone"></i> <a href="tel:+84961362174">096.136.2174</a>
+    </div>
+   
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -679,11 +690,11 @@
         $(window).on("scroll", function () {
             if ($(window).scrollTop() > 50) {
                 $(".navbar").addClass("active");
-                $('#scroll').fadeIn(); 
+                $('#totop').fadeIn(); 
             } else {
                 //remove the background property so it comes transparent again (defined in your css)
                 $(".navbar").removeClass("active");
-                $('#scroll').fadeOut(); 
+                $('#totop').fadeOut(); 
             }
         });
         $('#totop').click(function(){ 
