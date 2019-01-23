@@ -35,7 +35,7 @@ $('.talk-aboutme').slick({
       {
         breakpoint: 786,
         settings: {
-          slidesToShow: 2
+          slidesToShow: 1
         }
       }
     ]
