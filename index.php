@@ -422,28 +422,28 @@
         id="contact" class="page">
 
         <div class="row">
-            <div class="col-md-12 .col-sm-12">
-                <h3 style="color:#fff"> Nhận tư vấn chuyên sâu</h3>
-            </div>
-
-            <div class="col-md-3 .col-sm-4">
-                <label for="inputPassword2" class="sr-only">Tên của bạn</label>
-                <input type="text" class="custom" id="inputPassword2" placeholder="Số điện thoại">
-            </div>
-
-            <div class="col-md-3 .col-sm-4">
-                <label for="inputPassword2" class="sr-only">Số điện thoại</label>
-                <input type="text" class="custom" id="inputPassword2" placeholder="Số điện thoại">
-            </div>
-
-            <div class="col-md-3 .col-sm-4">
-                <label for="inputPassword2" class="sr-only">Email</label>
-                <input type="text" class="custom" id="inputPassword2" placeholder="Email">
-            </div>
-
-            <div class="col-md-3 .col-sm-12">
-                <button id="submit-sub" style="width:100%;" type="submit" class="custom">Đăng ký</button>
-            </div>
+        <div style="margin-bottom:6px;" class="col-md-12 .col-sm-12">
+                        <h3 style="color:#fff"> Nhận tư vấn chuyên sâu</h3>
+                    </div>
+        
+                    <div class="col-md-3 .col-sm-4">
+                        <label for="inputPassword2" class="sr-only">Tên của bạn</label>
+                        <input type="text" class="custom" id="inputPassword2" placeholder="Tên của bạn">
+                    </div>
+        
+                    <div class="col-md-3 .col-sm-4">
+                        <label for="inputPassword2" class="sr-only">Số điện thoại</label>
+                        <input type="text" class="custom" id="inputPassword2" placeholder="Số điện thoại">
+                    </div>
+        
+                    <div class="col-md-3 .col-sm-4">
+                        <label for="inputPassword2" class="sr-only">Email</label>
+                        <input type="text" class="custom" id="inputPassword2" placeholder="Email">
+                    </div>
+        
+                    <div class="col-md-2 .col-sm-12">
+                        <button id="submit-sub" style="width:100%;" type="submit" class="custom">Đăng ký</button>
+                    </div>
 
         </div>
     </div>
