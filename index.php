@@ -421,11 +421,10 @@
       ),url('https://scontent.fhan5-5.fna.fbcdn.net/v/t1.0-9/40978439_1941482415942797_8209395099390443520_o.jpg?_nc_cat=101&_nc_ht=scontent.fhan5-5.fna&oh=25885d6212b82800daf0fd662d88d032&oe=5CD7CCC1')"
         id="contact" class="page">
 
-        <div class="row">
+    
            
         <?php echo do_shortcode( '[contact-form-7 id="75" title="Contact"]' ); ?>
 
-        </div>
     </div>
 
     <div id="talk-aboutme" class="page">

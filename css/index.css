@@ -289,7 +289,7 @@ footer a {
     border: none;
 }
 
-button.custom {
+button.custom, input[type="submit"].custom {
     transition: .3s !important;
     text-align: center;
     border: none;
@@ -312,7 +312,7 @@ button.custom {
     box-sizing: border-box;
 }
 
-button.custom:hover {
+button.custom:hover,input[type="submit"].custom:hover {
     color: #fff;
     background: var(--primary-color);
     box-shadow: 0 9px 28px rgba(0, 0, 0, 0.3), 0 0px 10px rgba(0, 0, 0, 0.1);
