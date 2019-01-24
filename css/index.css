@@ -576,5 +576,5 @@ right:300px; */
 .fb_customer_chat_bounce_in_v2{
     bottom: 80pt !important;
     left: 9pt !important;
-    right: auto;
+    right: auto !important;
 }
