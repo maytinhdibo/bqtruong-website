@@ -53,6 +53,12 @@ $('.talk-aboutme').slick({
       {
         breakpoint: 1024,
         settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 786,
+        settings: {
           slidesToShow: 1
         }
       }
