@@ -568,3 +568,8 @@ right:300px; */
 #list-project a:hover{
     text-decoration: none;
 }
+
+.fb_dialog{
+    bottom: 35pt !important;
+    left: 18pt !important;
+}
