@@ -248,69 +248,6 @@
         </div>
     </div>
 
-    <!-- <div id="blog" class="blog page">
-        <div class="title-page">
-            <h2>Bài viết</h2>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-lg-4 col-sm-12">
-                    <div class="card wow fadeInUp" data-wow-duration="0.75s" data-wow-delay="0.5s">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title</h4>
-                            <p class="card-text">
-
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="custom"><a href="" class="card-link">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-12">
-                    <div class="card wow fadeInUp" data-wow-duration="0.75s" data-wow-delay="0.75s">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title</h4>
-                            <p class="card-text">
-
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="custom"><a href="" class="card-link">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-12">
-                    <div class="card wow fadeInUp" data-wow-duration="0.75s" data-wow-delay="1s">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title</h4>
-                            <p class="card-text">
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="custom"><a href="" class="card-link">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <div id="post" class="page">
         <div class="title-page">
             <h2>Bài viết của tôi</h2>
@@ -498,79 +435,45 @@
         </div>
         <div class="container">
             <div id="friend" class="row">
-                <div class="list-card">
-                    <div class="card">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
+                <?php
+//                print_r(get_pages(array("parent" => 82)));
+                $pages = get_pages(array("parent" => 82));
+                if ( $pages ) {
+                    foreach ( $pages as $page ) :
+                        $_SESSION["page"] = $page; ?>
+                        <div class="list-card">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="<?php echo get_the_post_thumbnail_url($_SESSION["page"]->ID) ?>" class="img-fluid">
+                                </div>
 
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title</h4>
-                            <p class="card-text">
-
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
+                                <div class="card-body">
+                                    <h4 class="card-title"><?php echo $_SESSION["page"]->post_title; ?></h4>
+                                    <p class="card-text">
+                                        <?php
+                                            $content = $_SESSION["page"]->post_content;
+                                            $content = strip_tags($content);
+                                            if ( strlen($content) > 100 ) {
+                                                $index = 100;
+                                                while ($index < strlen($content) && $content[$index] != ' ') {
+                                                    $index++;
+                                                }
+                                                $content = substr( $content, 0, $index );
+                                                $content .= "...";
+                                            }
+                                            echo $content;
+                                        ?>
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="custom"><a href="<?php echo get_page_link( $_SESSION["page"]->ID ); ?>" class="card-link">Xem thêm</a></button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-footer">
-                            <button class="custom"><a href="" class="card-link">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="list-card">
-                    <div class="card">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title</h4>
-                            <p class="card-text">
-
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="custom"><a href="" class="card-link">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="list-card">
-                    <div class="card">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title</h4>
-                            <p class="card-text">
-
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="custom"><a href="" class="card-link">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="list-card">
-                    <div class="card" data-wow-duration="0.75s" data-wow-delay="1s">
-                        <div class="card-img">
-                            <img src="img/46741501_2046814075409630_9129134785023705088_o.jpg" class="img-fluid">
-                        </div>
-
-                        <div class="card-body">
-                            <h4 class="card-title">Post Title</h4>
-                            <p class="card-text">
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <button class="custom"><a href="" class="card-link">Read more</a></button>
-                        </div>
-                    </div>
-                </div>
+                    <?php
+                    endforeach;
+                }
+                ?>
             </div>
         </div>
     </div>
