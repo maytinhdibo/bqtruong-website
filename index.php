@@ -422,19 +422,26 @@
         id="contact" class="page">
 
         <div class="row">
-            <div class="col-md-5 .col-sm-12">
+            <div class="col-md-12 .col-sm-12">
                 <h3 style="color:#fff"> Nhận tư vấn chuyên sâu</h3>
             </div>
-            <div class="col-md-2 .col-sm-4">
+
+            <div class="col-md-3 .col-sm-4">
+                <label for="inputPassword2" class="sr-only">Tên của bạn</label>
+                <input type="text" class="custom" id="inputPassword2" placeholder="Số điện thoại">
+            </div>
+
+            <div class="col-md-3 .col-sm-4">
                 <label for="inputPassword2" class="sr-only">Số điện thoại</label>
                 <input type="text" class="custom" id="inputPassword2" placeholder="Số điện thoại">
             </div>
 
-            <div class="col-md-3 .col-sm-5">
+            <div class="col-md-3 .col-sm-4">
                 <label for="inputPassword2" class="sr-only">Email</label>
                 <input type="text" class="custom" id="inputPassword2" placeholder="Email">
             </div>
-            <div class="col-md-2 .col-sm-5">
+
+            <div class="col-md-3 .col-sm-12">
                 <button id="submit-sub" style="width:100%;" type="submit" class="custom">Đăng ký</button>
             </div>
 
@@ -610,7 +617,7 @@
             <div class="row">
 
                 <!-- Grid column -->
-                <div class="col-md-6 mt-md-0 mt-3">
+                <div class="col-md-5 mt-md-0 mt-3">
 
                     <!-- Content -->
                     <h5 class="text-uppercase">Mr. Bùi Quốc Trưởng</h5>
@@ -650,7 +657,7 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
+                <div class="col-md-4 mb-md-0 mb-3">
                     <h5 class="text-uppercase">Tải Tài Liệu</h5>
 
                     <ul class="list-unstyled">

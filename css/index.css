@@ -561,3 +561,10 @@ right:300px; */
     padding-right:28px;
     padding-left:28px;
 }
+
+#list-project a{
+    color: #345;
+}
+#list-project a:hover{
+    text-decoration: none;
+}
