@@ -203,8 +203,8 @@
 
 #totop {
     position: fixed;
-    bottom: 69pt;
-    right: 24.5pt;
+    bottom: 76pt;
+    right: 24.6pt;
     background: rgba(255, 255, 255, 0.5);
     height: 45px;
     width: 45px;
@@ -217,11 +217,11 @@
     cursor: pointer;
     transition: 0.25s;
     display: none;
-    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.045);
+    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.08);
 }
 
 #totop:hover {
-    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.13);
 }
 
 #totop i {
