@@ -42,20 +42,17 @@
 
 <body>
     <!-- Load Facebook SDK for JavaScript -->
-    <div class="fb-customerchat"
-         page_id="1669656373306437"
-         logged_in_greeting="Xin chào! mình có thể hỗ trợ bạn điều gì?"
-         logged_out_greeting="Xin chào! mình có thể hỗ trợ bạn điều gì?"
-    >
+    <div class="fb-customerchat" page_id="1669656373306437" logged_in_greeting="Xin chào! mình có thể hỗ trợ bạn điều gì?"
+        logged_out_greeting="Xin chào! mình có thể hỗ trợ bạn điều gì?">
     </div>
 
     <script>
         window.fbAsyncInit = function () {
             FB.init({
-                appId            : '295027501369343',
-                autoLogAppEvents : true,
-                xfbml            : true,
-                version          : 'v3.2'
+                appId: '295027501369343',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v3.2'
             });
 
             // FB.CustomerChat.show();
@@ -88,7 +85,7 @@
                 </li>
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item">
-                      <a href="#"><img class="logo" src="img/profile.jpg" /></a>  
+                        <a href="#"><img class="logo" src="img/profile.jpg" /></a>
                     </li>
                     </li>
                 </ul>
@@ -103,6 +100,24 @@
         </div>
     </nav>
 
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <iframe id="iframeYoutube" width="100%" height="315" src="https://www.youtube.com/embed/e80BbX05D7Y"
+                        frameborder="0" allowfullscreen></iframe>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
     <header class="header">
@@ -141,9 +156,12 @@
                 <div class="col-lg-9 col-md-8 col-sm-12 desc wow fadeInRight">
                     <h3>Bùi Quốc Trưởng</h3>
                     <p>
-                    "Mọi chuyện xảy ra trong cuộc đời đều có ý nghĩa riêng của nó"
-Xuất thân là một kĩ sư thiết kế cơ khí ôtô làm việc tại công ty 100% vốn Nhật Bản, nơi rèn giũa cho tôi tinh thần làm việc Nhiệt tình - Chuyên nghiệp - Chính trực. Chuyển hướng sang Tư vấn đầu tư Bất Động Sản chuyên nghiệp, 
-những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác biệt và nằm trên sự mong muốn của tất cả Quý vị!
+                        "Mọi chuyện xảy ra trong cuộc đời đều có ý nghĩa riêng của nó"
+                        Xuất thân là một kĩ sư thiết kế cơ khí ôtô làm việc tại công ty 100% vốn Nhật Bản, nơi rèn giũa
+                        cho tôi tinh thần làm việc Nhiệt tình - Chuyên nghiệp - Chính trực. Chuyển hướng sang Tư vấn
+                        đầu tư Bất Động Sản chuyên nghiệp,
+                        những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác biệt và nằm trên sự mong muốn của tất
+                        cả Quý vị!
                     </p>
                     <ul class="timeline">
                         <li>
@@ -188,20 +206,22 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
             if ( $projects ) {
                 foreach ( $projects as $project ) :
                     $_SESSION["project"] = $project; ?>
-                    <a href="<?php echo get_page_link( $_SESSION["project"]->ID ); ?>">
-                        <div class="list-card">
-                            <div class="card wow jackInTheBox" data-wow-duration="0.75s">
-                                <div class="card-img">
-                                    <img src="<?php echo get_the_post_thumbnail_url($_SESSION["project"]->ID) ?>"
-                                         class="img-fluid">
-                                </div>
-                                <div class="card-footer">
-                                    <h5><?php echo $_SESSION["project"]->post_title; ?></h5>
-                                </div>
-                            </div>
+            <a href="<?php echo get_page_link( $_SESSION[" project"]->ID ); ?>">
+                <div class="list-card">
+                    <div class="card wow jackInTheBox" data-wow-duration="0.75s">
+                        <div class="card-img">
+                            <img src="<?php echo get_the_post_thumbnail_url($_SESSION[" project"]->ID) ?>"
+                            class="img-fluid">
                         </div>
-                    </a>
-                    <?php
+                        <div class="card-footer">
+                            <h5>
+                                <?php echo $_SESSION["project"]->post_title; ?>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <?php
                 endforeach;
             }
             ?>
@@ -214,8 +234,7 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
                 <div class="col-md-3">
                     <a href="http://blog.buiquoctruong.com/tag/biet-thu/">
                         <div class="cate-item">
-                            <div style="background-image:url('img/bietthu.jpg')"
-                                 class="bg-overlay"></div>
+                            <div style="background-image:url('img/bietthu.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
                             <div class="list-text">Biệt thự</div>
                         </div>
@@ -226,8 +245,7 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
                 <div class="col-md-3">
                     <a href="http://blog.buiquoctruong.com/tag/lien-ke/">
                         <div class="cate-item">
-                            <div style="background-image:url('img/lienke.jpg')"
-                                class="bg-overlay"></div>
+                            <div style="background-image:url('img/lienke.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
                             <div class="list-text">Shop house/Liền kề</div>
                         </div>
@@ -237,8 +255,7 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
                 <div class="col-md-3">
                     <a href="http://blog.buiquoctruong.com/tag/chung-cu/">
                         <div class="cate-item">
-                            <div style="background-image:url('img/chungcu.jpg')"
-                                class="bg-overlay"></div>
+                            <div style="background-image:url('img/chungcu.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
                             <div class="list-text">Chung cư</div>
                         </div>
@@ -248,8 +265,7 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
                 <div class="col-md-3">
                     <a href="http://blog.buiquoctruong.com/tag/condotel/">
                         <div class="cate-item">
-                            <div style="background-image:url('img/condotel.jpg')"
-                                class="bg-overlay"></div>
+                            <div style="background-image:url('img/condotel.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
                             <div class="list-text">Condotel</div>
                         </div>
@@ -268,7 +284,7 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
             <div class="row">
                 <div class="col-md-4 col-lg-4 col-sm-12 post-item">
                     <h4>Tin tức</h4>
-					<?php
+                    <?php
 						$posts = get_posts(array('category' => 17));
 						if ( $posts ) {
 						    $first = false;
@@ -276,20 +292,22 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
 								setup_postdata( $post );
                                 if ( !$first ) {
                                     ?>
-                                    <a href="<?php the_permalink(); ?>">
-                                        <div class="thumb-post">
-                                            <div class="card-img">
-                                                <img src="<?php echo get_the_post_thumbnail_url($post->ID) ?>" class="img-fluid">
-                                            </div>
-                                            <b class="post-title"><?php the_title();?></b>
-                                        </div>
-                                    </a>
-                                    <?php
+                    <a href="<?php the_permalink(); ?>">
+                        <div class="thumb-post">
+                            <div class="card-img">
+                                <img src="<?php echo get_the_post_thumbnail_url($post->ID) ?>" class="img-fluid">
+                            </div>
+                            <b class="post-title">
+                                <?php the_title();?></b>
+                        </div>
+                    </a>
+                    <?php
                                     $first = true;
                                 }
                                 else { ?>
-                                    <li><a href="<?php the_permalink(); ?>"><?php the_title();?></a></li>
-                                <?php
+                    <li><a href="<?php the_permalink(); ?>">
+                            <?php the_title();?></a></li>
+                    <?php
                                 }
 							endforeach;
 							wp_reset_postdata();
@@ -307,20 +325,22 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
                             setup_postdata( $post );
                             if ( !$first ) {
                                 ?>
-                                <a href="<?php the_permalink(); ?>">
-                                    <div class="thumb-post">
-                                        <div class="card-img">
-                                            <img src="<?php echo get_the_post_thumbnail_url($post->ID) ?>" class="img-fluid">
-                                        </div>
-                                        <b class="post-title"><?php the_title();?></b>
-                                    </div>
-                                </a>
-                                <?php
+                    <a href="<?php the_permalink(); ?>">
+                        <div class="thumb-post">
+                            <div class="card-img">
+                                <img src="<?php echo get_the_post_thumbnail_url($post->ID) ?>" class="img-fluid">
+                            </div>
+                            <b class="post-title">
+                                <?php the_title();?></b>
+                        </div>
+                    </a>
+                    <?php
                                 $first = true;
                             }
                             else { ?>
-                                <li><a href="<?php the_permalink(); ?>"><?php the_title();?></a></li>
-                                <?php
+                    <li><a href="<?php the_permalink(); ?>">
+                            <?php the_title();?></a></li>
+                    <?php
                             }
                         endforeach;
                         wp_reset_postdata();
@@ -338,20 +358,22 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
                             setup_postdata( $post );
                             if ( !$first ) {
                                 ?>
-                                <a href="<?php the_permalink(); ?>">
-                                    <div class="thumb-post">
-                                        <div class="card-img">
-                                            <img src="<?php echo get_the_post_thumbnail_url($post->ID) ?>" class="img-fluid">
-                                        </div>
-                                        <b class="post-title"><?php the_title();?></b>
-                                    </div>
-                                </a>
-                                <?php
+                    <a href="<?php the_permalink(); ?>">
+                        <div class="thumb-post">
+                            <div class="card-img">
+                                <img src="<?php echo get_the_post_thumbnail_url($post->ID) ?>" class="img-fluid">
+                            </div>
+                            <b class="post-title">
+                                <?php the_title();?></b>
+                        </div>
+                    </a>
+                    <?php
                                 $first = true;
                             }
                             else { ?>
-                                <li><a href="<?php the_permalink(); ?>"><?php the_title();?></a></li>
-                                <?php
+                    <li><a href="<?php the_permalink(); ?>">
+                            <?php the_title();?></a></li>
+                    <?php
                             }
                         endforeach;
                         wp_reset_postdata();
@@ -370,8 +392,8 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
       ),url('https://scontent.fhan5-5.fna.fbcdn.net/v/t1.0-9/40978439_1941482415942797_8209395099390443520_o.jpg?_nc_cat=101&_nc_ht=scontent.fhan5-5.fna&oh=25885d6212b82800daf0fd662d88d032&oe=5CD7CCC1')"
         id="contact" class="page">
 
-    
-           
+
+
         <?php echo do_shortcode( '[contact-form-7 id="75" title="Contact"]' ); ?>
 
     </div>
@@ -383,15 +405,19 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
         <div class="talk-aboutme">
             <div class="crd">
                 <div class="row">
-                    <div style="background-image:url('img/khachhang/nguyenngocanh.png')"
-                        class="client-img"></div>
+                    <div style="background-image:url('img/khachhang/nguyenngocanh.png')" class="client-img"></div>
                     <div class="client-content">
                         <div class="rw-author-details">
                             <h5>Chú Nguyễn Ngọc Anh</h5>
                             <p>Khách hàng sở hữu Biệt thự FLC Sầm Sơn</p>
                         </div>
-                        <p>"Tôi đã đầu tư khá nhiều đất thổ cư tại Hà Nội và Thành phố Thanh Hóa, gặp Trưởng là lần đầu tiên tôi biết đến Bất Động Sản nghỉ dưỡng, nhận được những chia sẻ và phân tích về thị trường của chàng trai trẻ này tôi thấy được tiềm năng trong đầu tư Nghỉ dưỡng tại nước ta rồi kịp thời đón đầu.
-Cùng làm trong lĩnh vực kĩ thuật nên các phân tích và chia sẻ ngắn gọn, cụ thể và rất khoa học của anh chàng này, tôi quyết định đầu tư khi mới được giới thiệu và thăm quan dự án chỉ vỏn vẹn duy nhất 1 tuần"</p>
+                        <p>"Tôi đã đầu tư khá nhiều đất thổ cư tại Hà Nội và Thành phố Thanh Hóa, gặp Trưởng là lần đầu
+                            tiên tôi biết đến Bất Động Sản nghỉ dưỡng, nhận được những chia sẻ và phân tích về thị
+                            trường của chàng trai trẻ này tôi thấy được tiềm năng trong đầu tư Nghỉ dưỡng tại nước ta
+                            rồi kịp thời đón đầu.
+                            Cùng làm trong lĩnh vực kĩ thuật nên các phân tích và chia sẻ ngắn gọn, cụ thể và rất khoa
+                            học của anh chàng này, tôi quyết định đầu tư khi mới được giới thiệu và thăm quan dự án chỉ
+                            vỏn vẹn duy nhất 1 tuần"</p>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -401,16 +427,20 @@ Cùng làm trong lĩnh vực kĩ thuật nên các phân tích và chia sẻ ng�
 
             <div class="crd">
                 <div class="row">
-                    <div style="background-image:url('img/khachhang/buivanhoan.png')"
-                        class="client-img"></div>
+                    <div style="background-image:url('img/khachhang/buivanhoan.png')" class="client-img"></div>
                     <div class="client-content">
                         <div class="rw-author-details">
                             <h5>Chú Bùi Văn Hoàn</h5>
                             <p>Nhà đầu tư đất nền FLC Tropical City Hạ Long</p>
                         </div>
                         <p>
-"Gặp được Trưởng cũng khá là tình cờ, tại quán cafe tại góc phố cuối tuần tại Hà Nội. Nhìn qua tướng tá chàng trai trẻ này tôi thấy có thiện cảm ngay, không giống bất kì sale nào tôi từng gặp. Điều ấn tượng nhất tôi nhận thấy ở chất lượng tư vấn và cái tâm bán hàng đó là Trưởng chỉ bán lô góc và cạnh góc có vị trí đẹp, đảm bảo tính thanh khoản cho tôi và bạn bè khi đầu tư vào dự án tại Hạ Long. Nói chung tôi hoàn toàn hài lòng và sẽ tiếp tục đồng hành trong các dự án tiếp theo"
-</p>
+                            "Gặp được Trưởng cũng khá là tình cờ, tại quán cafe tại góc phố cuối tuần tại Hà Nội. Nhìn
+                            qua tướng tá chàng trai trẻ này tôi thấy có thiện cảm ngay, không giống bất kì sale nào tôi
+                            từng gặp. Điều ấn tượng nhất tôi nhận thấy ở chất lượng tư vấn và cái tâm bán hàng đó là
+                            Trưởng chỉ bán lô góc và cạnh góc có vị trí đẹp, đảm bảo tính thanh khoản cho tôi và bạn bè
+                            khi đầu tư vào dự án tại Hạ Long. Nói chung tôi hoàn toàn hài lòng và sẽ tiếp tục đồng hành
+                            trong các dự án tiếp theo"
+                        </p>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -420,16 +450,39 @@ Cùng làm trong lĩnh vực kĩ thuật nên các phân tích và chia sẻ ng�
 
             <div class="crd">
                 <div class="row">
-                    <div style="background-image:url('img/khachhang/luonghaiyen.png')"
-                        class="client-img"></div>
+                    <div style="background-image:url('img/khachhang/luonghaiyen.png')" class="client-img"></div>
                     <div class="client-content">
                         <div class="rw-author-details">
                             <h5>Chị Lương Hải Yến</h5>
                             <p>Sở hữu Condotel BEST WESTERN PREMIER Quang Binh</p>
                         </div>
                         <p>
-                        Một ngày tôi nhận tới  4 5 cuộc điện thoại mời đầu tư Bất Động Sản, công việc thì rất bận nên tôi rất bực mình khi nhận những cuộc gọi như vậy trong ngày. Tuy nhiên anh chàng này lại gây cho tôi ấn tượng hơn ai hết.
-Anh chàng này thông minh và thật thà, đặc biệt là khả năng tính toán nhanh nhẹn đã đưa ra phương án cho tôi rất cụ thể. Chẳng tội gì không giới thiệu cho bạn bè đúng không?
+                            Một ngày tôi nhận tới 4 5 cuộc điện thoại mời đầu tư Bất Động Sản, công việc thì rất bận
+                            nên tôi rất bực mình khi nhận những cuộc gọi như vậy trong ngày. Tuy nhiên anh chàng này
+                            lại gây cho tôi ấn tượng hơn ai hết.
+                            Anh chàng này thông minh và thật thà, đặc biệt là khả năng tính toán nhanh nhẹn đã đưa ra
+                            phương án cho tôi rất cụ thể. Chẳng tội gì không giới thiệu cho bạn bè đúng không?
+                        </p>
+                    </div>
+                    <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
+                            style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
+                            class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
+                </div>
+            </div>
+
+            <div class="crd">
+                <div class="row">
+                    <div style="background-image:url('img/khachhang/nvt.png')" class="client-img"></div>
+                    <div class="client-content">
+                        <div class="rw-author-details">
+                            <h5>Bác N.V.T</h5>
+                            <p>Đầu tư Biệt thự đồi và 2 căn Condotel FLC Hạ Long</p>
+                        </div>
+                        <p>
+                            Tuy còn ít tuổi và chưa thực sự khéo léo trong ứng xử với người lớn tuổi, nhưng được cái
+                            Trưởng rất thật thà, cái gì chưa biết thì không dám tư vấn.
+                            Với kinh nghiệm người làm doanh nghiệp lâu năm, tôi tin tưởng chàng trai trẻ này sẽ rất
+                            thành công trong lĩnh vực mà niềm tin là thứ quan trọng nhất này."
                         </p>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
@@ -454,16 +507,19 @@ Anh chàng này thông minh và thật thà, đặc biệt là khả năng tính
                 if ( $pages ) {
                     foreach ( $pages as $page ) :
                         $_SESSION["page"] = $page; ?>
-                        <div class="list-card">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="<?php echo get_the_post_thumbnail_url($_SESSION["page"]->ID) ?>" class="img-fluid">
-                                </div>
+                <div class="list-card">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="<?php echo get_the_post_thumbnail_url($_SESSION[" page"]->ID) ?>"
+                            class="img-fluid">
+                        </div>
 
-                                <div class="card-body">
-                                    <h4 class="card-title"><?php echo $_SESSION["page"]->post_title; ?></h4>
-                                    <p class="card-text">
-                                        <?php
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <?php echo $_SESSION["page"]->post_title; ?>
+                            </h4>
+                            <p class="card-text">
+                                <?php
                                             $content = $_SESSION["page"]->post_content;
                                             $content = strip_tags($content);
                                             if ( strlen($content) > 100 ) {
@@ -476,14 +532,15 @@ Anh chàng này thông minh và thật thà, đặc biệt là khả năng tính
                                             }
                                             echo $content;
                                         ?>
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <button class="custom"><a href="<?php echo get_page_link( $_SESSION["page"]->ID ); ?>" class="card-link">Xem thêm</a></button>
-                                </div>
-                            </div>
+                            </p>
                         </div>
-                    <?php
+                        <div class="card-footer">
+                            <button class="custom"><a href="<?php echo get_page_link( $_SESSION[" page"]->ID ); ?>"
+                                    class="card-link">Xem thêm</a></button>
+                        </div>
+                    </div>
+                </div>
+                <?php
                     endforeach;
                 }
                 ?>
@@ -593,18 +650,18 @@ Anh chàng này thông minh và thật thà, đặc biệt là khả năng tính
     </div>
 
     <div id="callme">
-    <i class="fa fa-phone"></i> <a href="tel:+84931005567">093.100.5567</a>
+        <i class="fa fa-phone"></i> <a href="tel:+84931005567">093.100.5567</a>
     </div>
-   
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133222263-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-133222263-1');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133222263-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133222263-1');
+    </script>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -619,21 +676,35 @@ Anh chàng này thông minh và thật thà, đặc biệt là khả năng tính
         $(window).on("scroll", function () {
             if ($(window).scrollTop() > 50) {
                 $(".navbar").addClass("active");
-                $('#totop').fadeIn(); 
+                $('#totop').fadeIn();
             } else {
                 //remove the background property so it comes transparent again (defined in your css)
                 $(".navbar").removeClass("active");
-                $('#totop').fadeOut(); 
+                $('#totop').fadeOut();
             }
         });
-        $('#totop').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 0); 
-        return false; 
-    }); 
+        $('#totop').click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 0);
+            return false;
+        });
+
+        $(document).ready(function () {
+            $("#myModal").on("hidden.bs.modal", function () {
+                $("#iframeYoutube").attr("src", "#");
+            })
+        })
+
+
         var play = 0;
         function playvideo() {
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                window.open("https://www.youtube.com/watch?v=mUyggKgfkXg");
+                // window.open("https://www.youtube.com/watch?v=mUyggKgfkXg");
+            
+                    var iframe = document.getElementById("iframeYoutube");
+                    iframe.src = "https://www.youtube.com/embed/JKjKBMqCiBc";
+
+                    $("#myModal").modal("show");
+        
             } else {
                 if (play == 0) {
                     document.querySelector("#video-background").style.visibility = "visible";
