@@ -584,6 +584,7 @@ right:300px; */
 
 .card-img img{
     height: 100%;
+    width: auto;
 }
 
 /* .fb_dialog{
