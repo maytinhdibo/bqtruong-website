@@ -569,6 +569,11 @@ right:300px; */
     text-decoration: none;
 }
 
+
+.pswp{
+    display: none;
+}
+
 /* .fb_dialog{
     bottom: 35pt !important;
     left: 18pt !important;
