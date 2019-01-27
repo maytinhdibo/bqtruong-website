@@ -510,7 +510,7 @@
                 <div class="list-card">
                     <div class="card">
                         <div class="card-img">
-                            <img src="<?php echo get_the_post_thumbnail_url($_SESSION[" page"]->ID) ?>"
+                            <img src="<?php echo get_the_post_thumbnail_url($_SESSION["page"]->ID) ?>"
                             class="img-fluid">
                         </div>
 
@@ -535,7 +535,7 @@
                             </p>
                         </div>
                         <div class="card-footer">
-                            <button class="custom"><a href="<?php echo get_page_link( $_SESSION[" page"]->ID ); ?>"
+                            <button class="custom"><a href="<?php echo get_page_link( $_SESSION["page"]->ID ); ?>"
                                     class="card-link">Xem thêm</a></button>
                         </div>
                     </div>
