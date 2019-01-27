@@ -401,15 +401,16 @@ Cùng làm trong lĩnh vực kĩ thuật nên các phân tích và chia sẻ ng�
 
             <div class="crd">
                 <div class="row">
-                    <div style="background-image:url('https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/50082554_2297592466927038_5888205785481084928_n.jpg?_nc_cat=100&_nc_oc=AQmn2TouUYOXWwzK5IPiU4qQE_zOjv2wKXcN_MLyOxuIYgEJCu_Kb7NTO2TqDmxiQvQ&_nc_ht=scontent.fhan2-4.fna&oh=214f80229cdd53ce4b4fe2d4798a4bb8&oe=5CC69239')"
+                    <div style="background-image:url('img/khachhang/buivanhoan.png')"
                         class="client-img"></div>
                     <div class="client-content">
                         <div class="rw-author-details">
-                            <h5>Chị Hương</h5>
-                            <p>Khách hàng mua Biệt Thự FLC</p>
+                            <h5>Chú Bùi Văn Hoàn</h5>
+                            <p>Nhà đầu tư đất nền FLC Tropical City Hạ Long</p>
                         </div>
-                        <p>Đây là phần xứng đáng em được hưởng sau quá trình chị làm việc với em. Mặc dù em không lấy
-                            được nhưng sự nhiệt tình hết mình và cái tâm trong công việc chị rất ghi nhận</p>
+                        <p>
+"Gặp được Trưởng cũng khá là tình cờ, tại quán cafe tại góc phố cuối tuần tại Hà Nội. Nhìn qua tướng tá chàng trai trẻ này tôi thấy có thiện cảm ngay, không giống bất kì sale nào tôi từng gặp. Điều ấn tượng nhất tôi nhận thấy ở chất lượng tư vấn và cái tâm bán hàng đó là Trưởng chỉ bán lô góc và cạnh góc có vị trí đẹp, đảm bảo tính thanh khoản cho tôi và bạn bè khi đầu tư vào dự án tại Hạ Long. Nói chung tôi hoàn toàn hài lòng và sẽ tiếp tục đồng hành trong các dự án tiếp theo"
+</p>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -419,15 +420,17 @@ Cùng làm trong lĩnh vực kĩ thuật nên các phân tích và chia sẻ ng�
 
             <div class="crd">
                 <div class="row">
-                    <div style="background-image:url('https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-0/p206x206/50324493_2297592840260334_2348280911050571776_n.jpg?_nc_cat=102&_nc_oc=AQl6Zy2Cxi7YvlNq9Sarh5Z3fpmg-kBvSTh_JNcONe14h32z_bZd4NL0b_3howEchBM&_nc_ht=scontent.fhan2-1.fna&oh=fc1e6c423bcb0481c1df062f6f9e9c4a&oe=5CCA48CB')"
+                    <div style="background-image:url('img/khachhang/luonghaiyen.png')"
                         class="client-img"></div>
                     <div class="client-content">
                         <div class="rw-author-details">
-                            <h5>Cô Thảo</h5>
-                            <p>Khách hàng mua Biệt Thự FLC</p>
+                            <h5>Chị Lương Hải Yến</h5>
+                            <p>Sở hữu Condotel BEST WESTERN PREMIER Quang Binh</p>
                         </div>
-                        <p>Trưởng à! Cô, Chú từng này tuổi rồi ít khi nhìn sai người lắm. Các cháu còn trẻ hơn ai hết
-                            các cháu hãy làm việc có tâm rồi may mắn sẽ đến với các cháu!</p>
+                        <p>
+                        Một ngày tôi nhận tới  4 5 cuộc điện thoại mời đầu tư Bất Động Sản, công việc thì rất bận nên tôi rất bực mình khi nhận những cuộc gọi như vậy trong ngày. Tuy nhiên anh chàng này lại gây cho tôi ấn tượng hơn ai hết.
+Anh chàng này thông minh và thật thà, đặc biệt là khả năng tính toán nhanh nhẹn đã đưa ra phương án cho tôi rất cụ thể. Chẳng tội gì không giới thiệu cho bạn bè đúng không?
+                        </p>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
