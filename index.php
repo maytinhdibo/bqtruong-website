@@ -383,17 +383,15 @@ những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác bi
         <div class="talk-aboutme">
             <div class="crd">
                 <div class="row">
-                    <div style="background-image:url('https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-9/50250681_2297591406927144_3789774800054910976_n.jpg?_nc_cat=108&_nc_oc=AQljbW7N4fREeee2rDu7SUyKm4fg5XFcAmgwkGRjpZmi_gzkcUwU5oa64p_ZV4XYdDw&_nc_ht=scontent.fhan2-3.fna&oh=15fdac9994043fd97161b1e568f76ea6&oe=5CC0B3F1')"
+                    <div style="background-image:url('img/khachhang/nguyenngocanh.png')"
                         class="client-img"></div>
                     <div class="client-content">
                         <div class="rw-author-details">
-                            <h5>Cô Vi</h5>
-                            <p>Khách hàng mua Biệt Thự FLC</p>
+                            <h5>Chú Nguyễn Ngọc Anh</h5>
+                            <p>Khách hàng sở hữu Biệt thự FLC Sầm Sơn</p>
                         </div>
-                        <p>Trưởng à, số tiền mà cô dự định chi cho việc mua nhà lần này rất lớn, vì thế cô chú rất kỹ
-                            tính trong việc lựa chọn người tư vấn. Và hôm nay coi như cô cháu mình có duyên, cô cũng
-                            giao hết công việc này cho cháu. Cháu hãy coi cô như người thân của mình tư vấn hết cho cô
-                            chú nhé</p>
+                        <p>"Tôi đã đầu tư khá nhiều đất thổ cư tại Hà Nội và Thành phố Thanh Hóa, gặp Trưởng là lần đầu tiên tôi biết đến Bất Động Sản nghỉ dưỡng, nhận được những chia sẻ và phân tích về thị trường của chàng trai trẻ này tôi thấy được tiềm năng trong đầu tư Nghỉ dưỡng tại nước ta rồi kịp thời đón đầu.
+Cùng làm trong lĩnh vực kĩ thuật nên các phân tích và chia sẻ ngắn gọn, cụ thể và rất khoa học của anh chàng này, tôi quyết định đầu tư khi mới được giới thiệu và thăm quan dự án chỉ vỏn vẹn duy nhất 1 tuần"</p>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
