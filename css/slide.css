@@ -98,6 +98,7 @@
 @media only screen and (max-width: 600px) {
     .floatright{
         float: none;
+        display: block;
     }
     .description h1 {
         font-size: 30px;
