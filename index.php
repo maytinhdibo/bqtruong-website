@@ -574,7 +574,7 @@
                     <!-- Content -->
                     <h5 class="text-uppercase">Mr. Bùi Quốc Trưởng</h5>
                     <p><i class="fa fa-envelope"></i> buiquoctruong.bds@gmail.com</p>
-                    <p><i class="fa fa-phone"></i> <a href="tel:+84961362174">096.136.2174</a> - <a href="tel:+84931005567">093.100.5567</a></p>
+                    <p><i class="fa fa-phone"></i> <a href="tel:+84961362174">096.136.2174</a> - <a href="tel:+84931005567">0931.005.567</a></p>
                     <p><i class="fa fa-home"></i>Tòa nhà M3 - M4 số 91 Nguyễn Chí Thanh - Ba Đình - Hà Nội</p>
                     <p>Hãy liên hệ và cùng trò chuyện nhé!</p>
 
@@ -650,7 +650,7 @@
     </div>
 
     <div id="callme">
-        <i class="fa fa-phone"></i> <a href="tel:+84931005567">093.100.5567</a>
+        <i class="fa fa-phone"></i> <a href="tel:+84931005567">0931.005.567</a>
     </div>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
