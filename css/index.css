@@ -1,3 +1,8 @@
+@font-face {
+    font-family: write-font;
+    src: url(../font/iCiel-Rukola.ttf);
+  }
+
 * {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -197,6 +202,9 @@ header {
 
 #about .desc h3 {
     color: var(--primary-color);
+    font-size:38px;
+    font-family: write-font;
+    margin-bottom: 0;
 }
 
 #about .desc p {
