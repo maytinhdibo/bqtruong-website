@@ -582,6 +582,10 @@ right:300px; */
     display: none;
 }
 
+.card-img img{
+    height: 100%;
+}
+
 /* .fb_dialog{
     bottom: 35pt !important;
     left: 18pt !important;
