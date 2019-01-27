@@ -206,11 +206,11 @@
             if ( $projects ) {
                 foreach ( $projects as $project ) :
                     $_SESSION["project"] = $project; ?>
-            <a href="<?php echo get_page_link( $_SESSION[" project"]->ID ); ?>">
+            <a href="<?php echo get_page_link( $_SESSION["project"]->ID ); ?>">
                 <div class="list-card">
                     <div class="card wow jackInTheBox" data-wow-duration="0.75s">
                         <div class="card-img">
-                            <img src="<?php echo get_the_post_thumbnail_url($_SESSION[" project"]->ID) ?>"
+                            <img src="<?php echo get_the_post_thumbnail_url($_SESSION["project"]->ID) ?>"
                             class="img-fluid">
                         </div>
                         <div class="card-footer">
@@ -572,7 +572,7 @@
                 <div class="col-md-5 mt-md-0 mt-3">
 
                     <!-- Content -->
-                    <h5 class="text-uppercase">Mr. Bùi Quốc Trưởng</h5>
+                    <h5>Mr. Bùi Quốc Trưởng</h5>
                     <p><i class="fa fa-envelope"></i> buiquoctruong.bds@gmail.com</p>
                     <p><i class="fa fa-phone"></i> <a href="tel:+84961362174">096.136.2174</a> - <a href="tel:+84931005567">0931.005.567</a></p>
                     <p><i class="fa fa-home"></i>Tòa nhà M3 - M4 số 91 Nguyễn Chí Thanh - Ba Đình - Hà Nội</p>
