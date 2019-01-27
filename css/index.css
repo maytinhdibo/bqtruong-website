@@ -1,7 +1,7 @@
 @font-face {
     font-family: write-font;
     src: url(../font/iCiel-Rukola.ttf);
-  }
+}
 
 * {
     font-family: 'Quicksand', sans-serif;
@@ -32,16 +32,14 @@ a:hover {
     color: var(--primary-color);
 }
 
-
 .navbar {
     padding: .5rem 1rem;
     background: #fff;
     box-shadow: 0 0 46px rgba(0, 0, 0, 0.2);
     text-shadow: none;
-    font-size:18px;
+    font-size: 18px;
     transition: 0.2s ease-in;
 }
-
 
 .nav-link, .navbar-brand {
     color: #fff;
@@ -98,14 +96,14 @@ a:hover {
     justify-content: flex-end;
 }
 
-.navbar.active{
+.navbar.active {
     opacity: 1 !important;
 }
 
 .logo {
     width: 50px;
     box-shadow: 0 0 1px rgba(68, 68, 68, 0.4);
-    margin-right:15px;
+    margin-right: 15px;
     border-radius: 100%;
 }
 
@@ -114,7 +112,7 @@ a:hover {
     margin-bottom: 10px;
 }
 
-#about a{
+#about a {
     color: var(--primary-color);
 }
 
@@ -202,7 +200,7 @@ header {
 
 #about .desc h3 {
     color: var(--primary-color);
-    font-size:38px;
+    font-size: 38px;
     font-family: write-font;
     margin-bottom: 0;
 }
@@ -267,10 +265,12 @@ footer a {
     background: #f8f8f9;
     cursor: pointer;
 }
-.card-img{
-    height:200px;
+
+.card-img {
+    height: 200px;
     overflow: hidden;
 }
+
 .card:hover {
     box-shadow: 0 9px 28px rgba(0, 0, 0, 0.12), 0 0px 10px rgba(0, 0, 0, 0.1);
     transform: scale(1.04);
@@ -320,7 +320,7 @@ button.custom, input[type="submit"].custom {
     box-sizing: border-box;
 }
 
-button.custom:hover,input[type="submit"].custom:hover {
+button.custom:hover, input[type="submit"].custom:hover {
     color: #fff;
     background: var(--primary-color);
     box-shadow: 0 9px 28px rgba(0, 0, 0, 0.3), 0 0px 10px rgba(0, 0, 0, 0.1);
@@ -566,25 +566,36 @@ right:300px; */
 
 .nav-item {
     display: table-cell;
-    padding-right:28px;
-    padding-left:28px;
+    padding-right: 28px;
+    padding-left: 28px;
 }
 
-#list-project a{
+#list-project a {
     color: #345;
 }
-#list-project a:hover{
+
+#list-project a:hover {
     text-decoration: none;
 }
 
-
-.pswp{
+.pswp {
     display: none;
 }
 
-.card-img img{
+.card-img img {
     min-height: 100%;
     width: auto;
+}
+
+.floatright {
+    float: right;
+}
+
+@media only screen and (max-width: 992px) {
+    .floatright {
+        float: none;
+        display: block;
+    }
 }
 
 /* .fb_dialog{
