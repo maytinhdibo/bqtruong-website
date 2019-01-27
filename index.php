@@ -141,9 +141,9 @@
                 <div class="col-lg-9 col-md-8 col-sm-12 desc wow fadeInRight">
                     <h3>Bùi Quốc Trưởng</h3>
                     <p>
-                        Nếu quý khách có bất kỳ nhu cầu hay thắc gì về BĐS cần tư vấn hãy liên hệ với tôi ngay. Có thể
-                        tôi không phải là người giỏi nhất để có thể giải quyết mọi vấn đề của quý khách nhưng tôi tự
-                        tin mình là người tư vấn tận tâm và chuyên nghiệp nhất…
+                    "Mọi chuyện xảy ra trong cuộc đời đều có ý nghĩa riêng của nó"
+Xuất thân là một kĩ sư thiết kế cơ khí ôtô làm việc tại công ty 100% vốn Nhật Bản, nơi rèn giũa cho tôi tinh thần làm việc Nhiệt tình - Chuyên nghiệp - Chính trực. Chuyển hướng sang Tư vấn đầu tư Bất Động Sản chuyên nghiệp, 
+những giá trị dịch vụ tôi mang lại chắc chắn sẽ rất khác biệt và nằm trên sự mong muốn của tất cả Quý vị!
                     </p>
                     <ul class="timeline">
                         <li>
@@ -171,7 +171,7 @@
                             <a target="_blank" href="http://plandvietnam.com/">Công tác viên tư vấn bất động sản - Sale
                                 Collaborator </a>
                             <a class="float-right">Tháng 9/2015 - Tháng 5/2018</a>
-                            <p>Công ty TNHH Đầu tư và Phát triển P.Land Việt Nam</p>
+                            <!-- <p>Công ty TNHH Đầu tư và Phát triển P.Land Việt Nam</p> -->
                         </li>
                     </ul>
                 </div>
@@ -214,7 +214,7 @@
                 <div class="col-md-3">
                     <a href="http://blog.buiquoctruong.com/tag/biet-thu/">
                         <div class="cate-item">
-                            <div style="background-image:url('http://trannghia.net/wp-content/uploads/2018/07/avt-vinpearl-cua-hoi.jpg')"
+                            <div style="background-image:url('img/bietthu.jpg')"
                                  class="bg-overlay"></div>
                             <div class="card-overlay"></div>
                             <div class="list-text">Biệt thự</div>
@@ -226,10 +226,10 @@
                 <div class="col-md-3">
                     <a href="http://blog.buiquoctruong.com/tag/lien-ke/">
                         <div class="cate-item">
-                            <div style="background-image:url('http://nguyenhoanganh.net/wp-content/uploads/2017/02/vinhomes-green-bay-600x420.jpg')"
+                            <div style="background-image:url('img/lienke.jpg')"
                                 class="bg-overlay"></div>
                             <div class="card-overlay"></div>
-                            <div class="list-text">Liền kề</div>
+                            <div class="list-text">Shop house/Liền kề</div>
                         </div>
                     </a>
                 </div>
@@ -237,7 +237,7 @@
                 <div class="col-md-3">
                     <a href="http://blog.buiquoctruong.com/tag/chung-cu/">
                         <div class="cate-item">
-                            <div style="background-image:url('http://nguyenhoanganh.net/wp-content/uploads/2017/05/vinhomes-skylake.jpg')"
+                            <div style="background-image:url('img/chungcu.jpg')"
                                 class="bg-overlay"></div>
                             <div class="card-overlay"></div>
                             <div class="list-text">Chung cư</div>
@@ -248,7 +248,7 @@
                 <div class="col-md-3">
                     <a href="http://blog.buiquoctruong.com/tag/condotel/">
                         <div class="cate-item">
-                            <div style="background-image:url('http://trannghia.net/wp-content/uploads/2018/08/the-costa-nha-trang.jpg')"
+                            <div style="background-image:url('img/condotel.jpg')"
                                 class="bg-overlay"></div>
                             <div class="card-overlay"></div>
                             <div class="list-text">Condotel</div>
@@ -592,7 +592,7 @@
     </div>
 
     <div id="callme">
-    <i class="fa fa-phone"></i> <a href="tel:+84961362174">096.136.2174</a>
+    <i class="fa fa-phone"></i> <a href="tel:+84931005567">093.100.5567</a>
     </div>
    
     <!-- Global site tag (gtag.js) - Google Analytics -->
