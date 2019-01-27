@@ -92,8 +92,13 @@
         margin-bottom: 4px;
     }
 }
-
+.floatright{
+    float: right;
+}
 @media only screen and (max-width: 600px) {
+    .floatright{
+        float: none;
+    }
     .description h1 {
         font-size: 30px;
     }

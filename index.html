@@ -167,20 +167,20 @@
                         <li>
                             <a target="_blank" href="http://plandvietnam.com/">Chuyên gia Bất động sản -
                                 Sale Supervisor</a>
-                            <a class="float-right">Tháng 9/2018 - nay</a>
+                            <a class="floatright">Tháng 9/2018 - nay</a>
                             <p>Công ty TNHH Đầu tư và Phát triển P.Land Việt Nam</p>
                         </li>
 
                         <li>
                             <a target="_blank" href="http://plandvietnam.com/">Chuyên viên Bất động sản - Sale </a>
-                            <a class="float-right">Tháng 5/2018 - Tháng 9/2018</a>
+                            <a class="floatright">Tháng 5/2018 - Tháng 9/2018</a>
                             <p>Công ty TNHH Đầu tư và Phát triển P.Land Việt Nam</p>
                         </li>
 
                         <li>
                             <a target="_blank" href="https://www.denso.com/vn/vi/">Kỹ sư thiết kế Linh kiện ô
                                 tô Nhật Bản </a>
-                            <a class="float-right">Tháng 8/2016 - Tháng 5/2018</a>
+                            <a class="floatright">Tháng 8/2016 - Tháng 5/2018</a>
                             <p>Công ty TNHH Denso Việt Nam</p>
                         </li>
 
@@ -188,7 +188,7 @@
                         <li>
                             <a target="_blank" href="http://plandvietnam.com/">Công tác viên tư vấn bất động sản - Sale
                                 Collaborator </a>
-                            <a class="float-right">Tháng 9/2015 - Tháng 5/2018</a>
+                            <a class="floatright">Tháng 9/2015 - Tháng 5/2018</a>
                             <!-- <p>Công ty TNHH Đầu tư và Phát triển P.Land Việt Nam</p> -->
                         </li>
                     </ul>
