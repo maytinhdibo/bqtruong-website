@@ -493,7 +493,7 @@
 
             <div class="crd">
                 <div class="row">
-                    <div style="background-image:url('img/khachhang/nvt.png')" class="client-img"></div>
+                    <div style="background-image:url('img/khachhang/leduytung.jpg')" class="client-img"></div>
                     <div class="client-content">
                         <div class="rw-author-details">
                             <h5>Anh Lê Duy Tùng</h5>
@@ -543,8 +543,8 @@
                                 <?php
                                             $content = $_SESSION["page"]->post_content;
                                             $content = strip_tags($content);
-                                            if ( strlen($content) > 100 ) {
-                                                $index = 100;
+                                            if ( strlen($content) > 120 ) {
+                                                $index = 120;
                                                 while ($index < strlen($content) && $content[$index] != ' ') {
                                                     $index++;
                                                 }
