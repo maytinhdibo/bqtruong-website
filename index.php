@@ -247,7 +247,7 @@
                         <div class="cate-item">
                             <div style="background-image:url('img/lienke.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
-                            <div class="list-text">Shop house/Liền kề</div>
+                            <div class="list-text">Shophouse/ Liền kề</div>
                         </div>
                     </a>
                 </div>
@@ -488,6 +488,27 @@
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
                             class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
+                </div>
+            </div>
+
+            <div class="crd">
+                <div class="row">
+                    <div style="background-image:url('img/khachhang/nvt.png')" class="client-img"></div>
+                    <div class="client-content">
+                        <div class="rw-author-details">
+                            <h5>Anh Lê Duy Tùng</h5>
+                            <p>Đầu tư Shophouse FLC Quảng Bình và FLC Tropical City Hạ Long</p>
+                        </div>
+                        <p>
+                            "Tôi làm trong lĩnh vực Phân phối thiết bị âm thanh, tổ chức sự kiện và nhà hàng. Đợt tháng 3/2018 được 1 người bạn thân giới thiệu đầu tư 1 lô Shophouse tại FLC Quảng Bình, hồi đó mua qua đại lý LSH. Lúc đầu mua thì vào đúng thời điểm sóng thị trường nên không sở hữu được lô góc đẹp, cũng vội vàng không kịp suy nghĩ cân nhắc nhiều nên đã đầu tư 1 lô ở giữa dãy, đặt cọc và kí hợp đồng xong thì gọi cho bạn sale đó thì không liên lạc được. Bây giờ muốn bán lại hay có thông tin gì mới cũng không nắm được. Thực sự là rất bực mình và mất niềm tin khi đầu tư vào các dự án Bất động sản như thế.
+                            Biết đến Trưởng cũng khá thú vị, đợt đó đăng kí tìm hiểu thông tin về Condotel ở FLC Hạ Long trên Facebook. Giá trị của sản phẩm đó quá cao so với khả năng tài chính nên tôi chưa thể tham gia đầu tư được. Trưởng đều đặn gửi thông tin về 2 dự án FLC Quảng Bình và FLC Hạ Long cho tôi từ tháng 5 cho tới tháng 11 năm nay, tất cả đều là những thông tin quan trọng và sát với thị trường. Khi có được loại hình đầu tư phù hợp là đất nền tại dự án Khu đô thị FLC Tropical City, cũng là lần đầu tiên tôi có được trải nghiệm 1 dịch vụ tư vấn và chăm sóc chuyên nghiệp như vậy. Trưởng lấy được cho tôi 1 lô góc liền kề trị giá 1,8 tỷ khi mà trong sự kiện gần 600 người tranh nhau,và rồi bán chênh 100 triệu chỉ trong vòng 1 tuần.
+                            Đến nay tôi nhận thấy được tiềm năng lâu dài của dự án này nên đã tin tưởng đặt cọc thiện trí để lấy được 1 lô đẹp trong đợt ra hàng mới của giai đoạn 2 sau Tết.
+                            Hồi tầm tuổi đó, tôi cũng không có nhiều nhiệt huyết với công việc như anh chàng này đâu *cười*"
+                        </p>
+                    </div>
+                    <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
+                                                                                                          style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
+                                class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span></div>
                 </div>
             </div>
 
