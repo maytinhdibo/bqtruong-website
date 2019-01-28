@@ -186,7 +186,7 @@
 
 
                         <li>
-                            <a target="_blank" href="http://plandvietnam.com/">Công tác viên tư vấn bất động sản - Sale
+                            <a target="_blank" href="http://plandvietnam.com/">Cộng tác viên tư vấn bất động sản - Sale
                                 Collaborator </a>
                             <a class="floatright">Tháng 9/2015 - Tháng 5/2018</a>
                             <!-- <p>Công ty TNHH Đầu tư và Phát triển P.Land Việt Nam</p> -->
