@@ -64,3 +64,11 @@ $('.talk-aboutme').slick({
       }
     ]
   });
+
+  //when load end
+  var maxHeight=0;
+  $(".client-content").each(function(){
+    if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+ });
+ 
+ $(".client-content").height(maxHeight);

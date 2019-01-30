@@ -120,6 +120,7 @@
     }
     .client-content {
         position: relative;
+        margin:auto;
         top: auto;
         left: auto;
         right: auto;

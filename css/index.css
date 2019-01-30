@@ -32,6 +32,9 @@ a:hover {
     color: var(--primary-color);
 }
 
+p {
+    margin-bottom: 0.7rem !important;
+}
 .navbar {
     padding: .5rem 1rem;
     background: #fff;
@@ -397,12 +400,13 @@ ul.timeline>li:before {
 }
 
 .client-content {
-    right: 230px;
-    left: 32px;
+    margin-right: 200px;
+    margin-bottom:22px;
+    /* left: 32px;
     top: 32px;
     bottom: 50px;
     position: absolute;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
 .client-content p {
@@ -445,17 +449,18 @@ right:300px; */
 
 .talk-aboutme .crd .row {
     background: #F97300;
-    height: 297px;
+    /* height: 297px; */
+    overflow: hidden; 
     position: relative;
     background-color: #fff;
-    padding: 40px;
+    padding: 32px;
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
     box-shadow: 0 5px 40px rgba(0, 0, 0, .07);
     border-radius: 4px;
     text-align: left;
-    overflow: hidden;
+    
     padding-bottom: 35px;
 }
 
