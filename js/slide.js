@@ -67,6 +67,7 @@ $('#friend').slick({
 
 //when resize
 function feedbackCard() {
+  $(".client-content").height('auto');
   var maxHeight = 0;
   $(".client-content").each(function () {
     if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
@@ -77,4 +78,5 @@ function feedbackCard() {
 feedbackCard();
 $(window).resize(function () {
   feedbackCard();
+  console.log("resize");
 });
