@@ -165,20 +165,20 @@
                     </p>
                     <ul class="timeline">
                         <li>
-                            <a target="_blank" href="http://plandvietnam.com/">Chuyên gia Bất động sản -
+                            <a href="#about">Chuyên gia Bất động sản -
                                 Sale Supervisor</a>
                             <a class="floatright">Tháng 9/2018 - nay</a>
                             <p>Công ty TNHH Đầu tư và Phát triển P.Land Việt Nam</p>
                         </li>
 
                         <li>
-                            <a target="_blank" href="http://plandvietnam.com/">Chuyên viên Bất động sản - Sale </a>
+                            <a href="#about">Chuyên viên Bất động sản - Sale </a>
                             <a class="floatright">Tháng 5/2018 - Tháng 9/2018</a>
                             <p>Công ty TNHH Đầu tư và Phát triển P.Land Việt Nam</p>
                         </li>
 
                         <li>
-                            <a target="_blank" href="https://www.denso.com/vn/vi/">Kỹ sư thiết kế Linh kiện ô
+                            <a href="#about">Kỹ sư thiết kế Linh kiện ô
                                 tô Nhật Bản </a>
                             <a class="floatright">Tháng 8/2016 - Tháng 5/2018</a>
                             <p>Công ty TNHH Denso Việt Nam</p>
@@ -186,10 +186,9 @@
 
 
                         <li>
-                            <a target="_blank" href="http://plandvietnam.com/">Cộng tác viên tư vấn bất động sản - Sale
+                            <a href="#about">Cộng tác viên tư vấn bất động sản - Sale
                                 Collaborator </a>
                             <a class="floatright">Tháng 9/2015 - Tháng 5/2018</a>
-                            <!-- <p>Công ty TNHH Đầu tư và Phát triển P.Land Việt Nam</p> -->
                         </li>
                     </ul>
                 </div>
@@ -417,7 +416,7 @@
                             rồi kịp thời đón đầu.
                             Cùng làm trong lĩnh vực kĩ thuật nên các phân tích và chia sẻ ngắn gọn, cụ thể và rất khoa
                             học của anh chàng này, tôi quyết định đầu tư khi mới được giới thiệu và thăm quan dự án chỉ
-                            vỏn vẹn duy nhất 1 tuần"</p>
+                            vỏn vẹn duy nhất 1 tuần."</p><a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -439,8 +438,9 @@
                             từng gặp. Điều ấn tượng nhất tôi nhận thấy ở chất lượng tư vấn và cái tâm bán hàng đó là
                             Trưởng chỉ bán lô góc và cạnh góc có vị trí đẹp, đảm bảo tính thanh khoản cho tôi và bạn bè
                             khi đầu tư vào dự án tại Hạ Long. Nói chung tôi hoàn toàn hài lòng và sẽ tiếp tục đồng hành
-                            trong các dự án tiếp theo"
+                            trong các dự án tiếp theo."
                         </p>
+                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -454,15 +454,16 @@
                     <div class="client-content">
                         <div class="rw-author-details">
                             <h5>Chị Lương Hải Yến</h5>
-                            <p>Sở hữu Condotel BEST WESTERN PREMIER Quang Binh</p>
+                            <p>Sở hữu Condotel BEST WESTERN PREMIER Quảng Bình</p>
                         </div>
                         <p>
-                            Một ngày tôi nhận tới 4 5 cuộc điện thoại mời đầu tư Bất Động Sản, công việc thì rất bận
+                            "Một ngày tôi nhận tới 4 5 cuộc điện thoại mời đầu tư Bất Động Sản, công việc thì rất bận
                             nên tôi rất bực mình khi nhận những cuộc gọi như vậy trong ngày. Tuy nhiên anh chàng này
                             lại gây cho tôi ấn tượng hơn ai hết.
                             Anh chàng này thông minh và thật thà, đặc biệt là khả năng tính toán nhanh nhẹn đã đưa ra
-                            phương án cho tôi rất cụ thể. Chẳng tội gì không giới thiệu cho bạn bè đúng không?
+                            phương án cho tôi rất cụ thể. Chẳng tội gì không giới thiệu cho bạn bè đúng không?"
                         </p>
+                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -479,11 +480,12 @@
                             <p>Đầu tư Biệt thự đồi và 2 căn Condotel FLC Hạ Long</p>
                         </div>
                         <p>
-                            Tuy còn ít tuổi và chưa thực sự khéo léo trong ứng xử với người lớn tuổi, nhưng được cái
+                            "Tuy còn ít tuổi và chưa thực sự khéo léo trong ứng xử với người lớn tuổi, nhưng được cái
                             Trưởng rất thật thà, cái gì chưa biết thì không dám tư vấn.
                             Với kinh nghiệm người làm doanh nghiệp lâu năm, tôi tin tưởng chàng trai trẻ này sẽ rất
                             thành công trong lĩnh vực mà niềm tin là thứ quan trọng nhất này."
                         </p>
+                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -500,8 +502,9 @@
                             <p>Đầu tư Shophouse FLC Quảng Bình và FLC Tropical City Hạ Long</p>
                         </div>
                         <p>
-                            "Biết đến Trưởng cũng khá thú vị, đợt đó đăng kí tìm hiểu thông tin về Condotel ở FLC Hạ Long trên Facebook. Trưởng đều đặn gửi thông tin về 2 dự án FLC Quảng Bình và FLC Hạ Long cho tôi từ tháng 5 cho tới tháng 11 năm nay, tất cả đều là những thông tin quan trọng và sát với thị trường.  Đến nay tôi nhận thấy được tiềm năng lâu dài của dự án này nên đã tin tưởng đặt cọc thiện trí để lấy được 1 lô đẹp trong đợt ra hàng mới của giai đoạn 2 sau Tết. Hồi tầm tuổi đó, tôi cũng không có nhiều nhiệt huyết với công việc như anh chàng này đâu *cười*"
+                            "Biết đến Trưởng cũng khá thú vị, đợt đó đăng kí tìm hiểu thông tin về Condotel ở FLC Hạ Long trên Facebook. Trưởng đều đặn gửi thông tin về 2 dự án FLC Quảng Bình và FLC Hạ Long cho tôi từ tháng 5 cho tới tháng 11 năm nay, tất cả đều là những thông tin quan trọng và sát với thị trường.  Đến nay tôi nhận thấy được tiềm năng lâu dài của dự án này nên đã tin tưởng đặt cọc thiện trí để lấy được 1 lô đẹp trong đợt ra hàng mới của giai đoạn 2 sau Tết. Hồi tầm tuổi đó, tôi cũng không có nhiều nhiệt huyết với công việc như anh chàng này đâu <strong>*cười*</strong>"
                         </p>
+                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                                                                                                           style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -511,7 +514,7 @@
 
         </div>
         <div style="text-algin:center">
-    <button class="custom"><a href="#">Đọc thêm về những câu chuyện</a></button>
+<!--    <button class="custom"><a href="#">Đọc thêm về những câu chuyện</a></button>-->
     </div>
 
     </div>
