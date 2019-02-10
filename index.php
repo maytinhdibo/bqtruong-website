@@ -577,11 +577,11 @@
 
     <div id="client-logo" class="page">
         <div class="client-logo row">
-            <div class="col-lg-2 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-flc.jpg)"></div>
-            <div class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-vinhomes.png)"></div>
-            <div class="col-lg-2 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-sungroup.jpg)"></div>
-            <div class="col-lg-3 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/04/logo-vinhomes.png)"></div>
-            <div class="col-lg-2 col-md-6" style="background-image:url(http://plandvietnam.com/wp-content/uploads/2018/06/4-1.jpg)"></div>
+            <div class="col-lg-2 col-md-6" style="background-image:url(./img/logo-flc.jpg)"></div>
+            <div class="col-lg-3 col-md-6" style="background-image:url(./img/logo-vinhomes.png)"></div>
+            <div class="col-lg-2 col-md-6" style="background-image:url(./img/logo-sungroup.jpg)"></div>
+            <div class="col-lg-3 col-md-6" style="background-image:url(./img/logo-phomes.png)"></div>
+            <div class="col-lg-2 col-md-6" style="background-image:url(./img/logo-mekonggroup.jpg)"></div>
         </div>
     </div>
 
@@ -726,14 +726,14 @@
                 // window.open("https://www.youtube.com/watch?v=mUyggKgfkXg");
             
                     var iframe = document.getElementById("iframeYoutube");
-                    iframe.src = "https://www.youtube.com/embed/JKjKBMqCiBc";
+                    iframe.src = "https://www.youtube.com/watch?v=NlKPOBBYMq8";
 
                     $("#myModal").modal("show");
         
             } else {
                 if (play == 0) {
                     document.querySelector("#video-background").style.visibility = "visible";
-                    document.querySelector("#video").src = "https://www.youtube.com/embed/MB80ZuIJATI?controls=0&showinfo=0&autoplay=1&loop=1&mute=1";
+                    document.querySelector("#video").src = "https://www.youtube.com/embed/NlKPOBBYMq8?controls=0&showinfo=0&autoplay=1&loop=1&mute=1";
                     document.querySelector(".play-video").innerHTML = '<span class="fas fa-pause"></span>';
                     document.querySelector(".description h1").style.display = "none";
                     document.querySelector(".description p").style.display = "none";
