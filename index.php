@@ -42,7 +42,7 @@
 
 <body>
     <!-- Load Facebook SDK for JavaScript -->
-    <div class="fb-customerchat" page_id="1669656373306437" logged_in_greeting="Xin chào! mình có thể hỗ trợ bạn điều gì?"
+    <div class="fb-customerchat" page_id="380508829429307" logged_in_greeting="Xin chào! mình có thể hỗ trợ bạn điều gì?"
         logged_out_greeting="Xin chào! mình có thể hỗ trợ bạn điều gì?">
     </div>
 
