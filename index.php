@@ -388,7 +388,7 @@
     <div style="padding:46px;background-size:cover;background-position: bottom;background-image: linear-gradient(
         rgba(0, 0, 0, 0.75), 
         rgba(0, 0, 0, 0.75)
-      ),url('img/contact.jpg')"
+      ),url('img/contact.png')"
         id="contact" class="page">
 
 
