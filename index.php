@@ -404,7 +404,7 @@
         <div class="talk-aboutme">
             <div class="crd">
                 <div class="row">
-                    <div style="background-image:url('img/khachhang/nguyenngocanh.png')" class="client-img"></div>
+                    <div style="background-image:url('img/khachhang/nguyenngocanh.jpg')" class="client-img"></div>
                     <div class="client-content">
                         <div class="rw-author-details">
                             <h5>Chú Nguyễn Ngọc Anh</h5>
