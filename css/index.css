@@ -122,7 +122,7 @@ p {
 /* intro */
 
 header {
-    background-image: url("../img/46741501_2046814075409630_9129134785023705088_o.jpg");
+    background-image: url("../img/banner.jpg");
     /* background-attachment: fixed; */
     background-size: cover;
     height: 100%;
@@ -136,7 +136,7 @@ header {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .description {

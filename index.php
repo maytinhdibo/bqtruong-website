@@ -156,7 +156,7 @@
                 <div class="col-lg-9 col-md-8 col-sm-12 desc wow fadeInRight">
                     <h3>Bùi Quốc Trưởng</h3>
                     <p>
-                        "Mọi chuyện xảy ra trong cuộc đời đều có ý nghĩa riêng của nó"
+                        "Mọi chuyện xảy ra trong cuộc đời đều có ý nghĩa riêng của nó"<br/>
                         Xuất thân là một kĩ sư thiết kế cơ khí ôtô làm việc tại công ty 100% vốn Nhật Bản, nơi rèn giũa
                         cho tôi tinh thần làm việc Nhiệt tình - Chuyên nghiệp - Chính trực. Chuyển hướng sang Tư vấn
                         đầu tư Bất Động Sản chuyên nghiệp,
@@ -234,7 +234,7 @@
                 <div class="col-md-3">
                     <a href="http://blog.buiquoctruong.com/tag/biet-thu/">
                         <div class="cate-item">
-                            <div style="background-image:url('img/bietthu.jpg')" class="bg-overlay"></div>
+                            <div style="background-image:url('img/bietthu.png')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
                             <div class="list-text">Biệt thự</div>
                         </div>
