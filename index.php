@@ -81,7 +81,7 @@
                 <li class="nav-item">
                     <a class="nav-link" data-value="about" href="#about">Về tôi</a> </li>
                 <li class="nav-item">
-                    <a class="nav-link " data-value="portfolio" href="http://blog.buiquoctruong.com">Blog</a>
+                    <a class="nav-link " data-value="portfolio" href="https://blog.buiquoctruong.com">Blog</a>
                 </li>
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item">
@@ -231,7 +231,7 @@
                     <h4>Các danh mục dự án</h4>
                 </div>
                 <div class="col-md-3">
-                    <a href="http://blog.buiquoctruong.com/tag/biet-thu/">
+                    <a href="https://blog.buiquoctruong.com/tag/biet-thu/">
                         <div class="cate-item">
                             <div style="background-image:url('img/bietthu.png')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
@@ -242,7 +242,7 @@
 
 
                 <div class="col-md-3">
-                    <a href="http://blog.buiquoctruong.com/tag/lien-ke/">
+                    <a href="https://blog.buiquoctruong.com/tag/lien-ke/">
                         <div class="cate-item">
                             <div style="background-image:url('img/lienke.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
@@ -252,7 +252,7 @@
                 </div>
 
                 <div class="col-md-3">
-                    <a href="http://blog.buiquoctruong.com/tag/chung-cu/">
+                    <a href="https://blog.buiquoctruong.com/tag/chung-cu/">
                         <div class="cate-item">
                             <div style="background-image:url('img/chungcu.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
@@ -262,7 +262,7 @@
                 </div>
 
                 <div class="col-md-3">
-                    <a href="http://blog.buiquoctruong.com/tag/condotel/">
+                    <a href="https://blog.buiquoctruong.com/tag/condotel/">
                         <div class="cate-item">
                             <div style="background-image:url('img/condotel.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
@@ -691,7 +691,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
