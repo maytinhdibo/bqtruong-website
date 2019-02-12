@@ -149,14 +149,14 @@
             </div>
             <div class="row">
                 <div style="text-align: center" class="col-lg-3 col-md-4 col-sm-12 wow fadeInLeft">
-                    <img src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-9/46773957_2046770548747316_7421143681450639360_n.jpg?_nc_cat=108&_nc_oc=AQltd91WYebEICchBVdUmyv4mECOzboIgNo7RPpLL4LhPRt2lW3iuP0D9ZLE55_xqRo&_nc_ht=scontent.fhan2-3.fna&oh=6ae9b130b6e4bb852a4d91642ee2ec36&oe=5CD1EC7D"
+                    <img src="img/bqt.jpg"
                         class="img-fluid">
                     <!-- <span class="text-justify">Chuyên gia tư vấn BĐS</span> -->
                 </div>
                 <div class="col-lg-9 col-md-8 col-sm-12 desc wow fadeInRight">
                     <h3>Bùi Quốc Trưởng</h3>
                     <p>
-                        "Mọi chuyện xảy ra trong cuộc đời đều có ý nghĩa riêng của nó"<br/>
+                        <em>"Mọi chuyện xảy ra trong cuộc đời đều có ý nghĩa riêng của nó"</em><br/>
                         Xuất thân là một kĩ sư thiết kế cơ khí ôtô làm việc tại công ty 100% vốn Nhật Bản, nơi rèn giũa
                         cho tôi tinh thần làm việc Nhiệt tình - Chuyên nghiệp - Chính trực. Chuyển hướng sang Tư vấn
                         đầu tư Bất Động Sản chuyên nghiệp,
