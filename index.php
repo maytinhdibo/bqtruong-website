@@ -85,7 +85,7 @@
                 </li>
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a href="#"><img class="logo" src="img/profile.jpg" /></a>
+                        <a href="#"><img class="logo" src="img/bqt.jpg" /></a>
                     </li>
                     </li>
                 </ul>
