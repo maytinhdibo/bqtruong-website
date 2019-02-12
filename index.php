@@ -2,7 +2,7 @@
   // Include WordPress
   global $wpdb;
   define('WP_USE_THEMES', false);
-  require('/var/www/bqtdotcom/wp-blog-header.php');
+  require('/home/opltaydm/blog.buiquoctruong.com/wp-blog-header.php');
   query_posts('posts_per_page=1');
 ?>
 
