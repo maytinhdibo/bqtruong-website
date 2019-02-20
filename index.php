@@ -416,7 +416,9 @@
                             rồi kịp thời đón đầu.
                             Cùng làm trong lĩnh vực kĩ thuật nên các phân tích và chia sẻ ngắn gọn, cụ thể và rất khoa
                             học của anh chàng này, tôi quyết định đầu tư khi mới được giới thiệu và thăm quan dự án chỉ
-                            vỏn vẹn duy nhất 1 tuần."</p><a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
+                            vỏn vẹn duy nhất 1 tuần."
+			</p>
+			<a href="https://blog.buiquoctruong.com/khach-hang-noi-ve-toi/chu-nguyen-ngoc-anh/">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -440,7 +442,7 @@
                             khi đầu tư vào dự án tại Hạ Long. Nói chung tôi hoàn toàn hài lòng và sẽ tiếp tục đồng hành
                             trong các dự án tiếp theo."
                         </p>
-                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
+                        <a href="https://blog.buiquoctruong.com/khach-hang-noi-ve-toi/chu-bui-van-hoan/">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -463,7 +465,7 @@
                             Anh chàng này thông minh và thật thà, đặc biệt là khả năng tính toán nhanh nhẹn đã đưa ra
                             phương án cho tôi rất cụ thể. Chẳng tội gì không giới thiệu cho bạn bè đúng không?"
                         </p>
-                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
+                        <a href="https://blog.buiquoctruong.com/khach-hang-noi-ve-toi/chi-luong-hai-yen/">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -485,7 +487,7 @@
                             Với kinh nghiệm người làm doanh nghiệp lâu năm, tôi tin tưởng chàng trai trẻ này sẽ rất
                             thành công trong lĩnh vực mà niềm tin là thứ quan trọng nhất này."
                         </p>
-                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
+                        <a href="https://blog.buiquoctruong.com/khach-hang-noi-ve-toi/bac-n-v-t/">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -504,7 +506,7 @@
                         <p>
                             "Biết đến Trưởng cũng khá thú vị, đợt đó đăng kí tìm hiểu thông tin về Condotel ở FLC Hạ Long trên Facebook. Trưởng đều đặn gửi thông tin về 2 dự án FLC Quảng Bình và FLC Hạ Long cho tôi từ tháng 5 cho tới tháng 11 năm nay, tất cả đều là những thông tin quan trọng và sát với thị trường.  Đến nay tôi nhận thấy được tiềm năng lâu dài của dự án này nên đã tin tưởng đặt cọc thiện trí để lấy được 1 lô đẹp trong đợt ra hàng mới của giai đoạn 2 sau Tết. Hồi tầm tuổi đó, tôi cũng không có nhiều nhiệt huyết với công việc như anh chàng này đâu <strong>*cười*</strong>"
                         </p>
-                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
+                        <a href="https://blog.buiquoctruong.com/khach-hang-noi-ve-toi/anh-le-duy-tung/">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                                                                                                           style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
