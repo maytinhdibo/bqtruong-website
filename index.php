@@ -2,7 +2,7 @@
   // Include WordPress
   global $wpdb;
   define('WP_USE_THEMES', false);
-  require('/var/www/bqtdotcom/wp-blog-header.php');
+  require('/home/opltaydm/blog.buiquoctruong.com/wp-blog-header.php');
   query_posts('posts_per_page=1');
 ?>
 
@@ -81,7 +81,7 @@
                 <li class="nav-item">
                     <a class="nav-link" data-value="about" href="#about">Về tôi</a> </li>
                 <li class="nav-item">
-                    <a class="nav-link " data-value="portfolio" href="http://blog.buiquoctruong.com">Blog</a>
+                    <a class="nav-link " data-value="portfolio" href="https://blog.buiquoctruong.com">Blog</a>
                 </li>
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item">
@@ -242,7 +242,7 @@
                     <h4>Các danh mục dự án</h4>
                 </div>
                 <div class="col-md-3">
-                    <a href="http://blog.buiquoctruong.com/tag/biet-thu/">
+                    <a href="https://blog.buiquoctruong.com/tag/biet-thu/">
                         <div class="cate-item">
                             <div style="background-image:url('img/bietthu.png')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
@@ -253,7 +253,7 @@
 
 
                 <div class="col-md-3">
-                    <a href="http://blog.buiquoctruong.com/tag/lien-ke/">
+                    <a href="https://blog.buiquoctruong.com/tag/lien-ke/">
                         <div class="cate-item">
                             <div style="background-image:url('img/lienke.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
@@ -263,7 +263,7 @@
                 </div>
 
                 <div class="col-md-3">
-                    <a href="http://blog.buiquoctruong.com/tag/chung-cu/">
+                    <a href="https://blog.buiquoctruong.com/tag/chung-cu/">
                         <div class="cate-item">
                             <div style="background-image:url('img/chungcu.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
@@ -273,7 +273,7 @@
                 </div>
 
                 <div class="col-md-3">
-                    <a href="http://blog.buiquoctruong.com/tag/condotel/">
+                    <a href="https://blog.buiquoctruong.com/tag/condotel/">
                         <div class="cate-item">
                             <div style="background-image:url('img/condotel.jpg')" class="bg-overlay"></div>
                             <div class="card-overlay"></div>
@@ -427,7 +427,9 @@
                             rồi kịp thời đón đầu.
                             Cùng làm trong lĩnh vực kĩ thuật nên các phân tích và chia sẻ ngắn gọn, cụ thể và rất khoa
                             học của anh chàng này, tôi quyết định đầu tư khi mới được giới thiệu và thăm quan dự án chỉ
-                            vỏn vẹn duy nhất 1 tuần."</p><a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
+                            vỏn vẹn duy nhất 1 tuần."
+			</p>
+			<a href="https://blog.buiquoctruong.com/khach-hang-noi-ve-toi/chu-nguyen-ngoc-anh/">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -451,7 +453,7 @@
                             khi đầu tư vào dự án tại Hạ Long. Nói chung tôi hoàn toàn hài lòng và sẽ tiếp tục đồng hành
                             trong các dự án tiếp theo."
                         </p>
-                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
+                        <a href="https://blog.buiquoctruong.com/khach-hang-noi-ve-toi/chu-bui-van-hoan/">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -474,7 +476,7 @@
                             Anh chàng này thông minh và thật thà, đặc biệt là khả năng tính toán nhanh nhẹn đã đưa ra
                             phương án cho tôi rất cụ thể. Chẳng tội gì không giới thiệu cho bạn bè đúng không?"
                         </p>
-                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
+                        <a href="https://blog.buiquoctruong.com/khach-hang-noi-ve-toi/chi-luong-hai-yen/">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -496,7 +498,7 @@
                             Với kinh nghiệm người làm doanh nghiệp lâu năm, tôi tin tưởng chàng trai trẻ này sẽ rất
                             thành công trong lĩnh vực mà niềm tin là thứ quan trọng nhất này."
                         </p>
-                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
+                        <a href="https://blog.buiquoctruong.com/khach-hang-noi-ve-toi/bac-n-v-t/">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                             style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -515,7 +517,7 @@
                         <p>
                             "Biết đến Trưởng cũng khá thú vị, đợt đó đăng kí tìm hiểu thông tin về Condotel ở FLC Hạ Long trên Facebook. Trưởng đều đặn gửi thông tin về 2 dự án FLC Quảng Bình và FLC Hạ Long cho tôi từ tháng 5 cho tới tháng 11 năm nay, tất cả đều là những thông tin quan trọng và sát với thị trường.  Đến nay tôi nhận thấy được tiềm năng lâu dài của dự án này nên đã tin tưởng đặt cọc thiện trí để lấy được 1 lô đẹp trong đợt ra hàng mới của giai đoạn 2 sau Tết. Hồi tầm tuổi đó, tôi cũng không có nhiều nhiệt huyết với công việc như anh chàng này đâu <strong>*cười*</strong>"
                         </p>
-                        <a href="#">&gt;&gt; Xem thêm &lt;&lt;</a>
+                        <a href="https://blog.buiquoctruong.com/khach-hang-noi-ve-toi/anh-le-duy-tung/">&gt;&gt; Xem thêm &lt;&lt;</a>
                     </div>
                     <div class="rw_rating"> <span class="fa fa-star" style="color: #ffc662;"></span><span class="fa fa-star"
                                                                                                           style="color: #ffc662;"></span><span class="fa fa-star" style="color: #ffc662;"></span><span
@@ -702,7 +704,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
